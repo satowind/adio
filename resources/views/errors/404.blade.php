@@ -1,35 +1,29 @@
+
 @extends( 'app.app' )
 @section('section')
-      <!-- End Navigation panel-->
-      <!-- breadcrumbs start-->
-      <section style="background-image:url('img/bg-1.jpg');" class="breadcrumbs">
-        <div class="container">
-          <div class="text-center breadcrumbs-item">
-            <h1>404 Page</h1><a href="/">home</a><i class="fa fa-angle-right"></i><a href="#">404 Page</a>
-          </div>
-        </div>
-      </section>
-      <!-- ! breadcrumbs end-->
-    </header>
-    <!-- ! header page-->
-    <!-- section 404-->
-    <div class="content-body">
-      <section class="page-section">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <div class="img-404"><img src="img/404.png" data-at2x="pic/404@2x.png" alt></div>
-              <h2 class="mt-40 mb-40 align-center">Ooops ... We are sorry, the page you want isn’t here anymore.</h2>
-              <div class="row">
-                <div class="col-md-8 col-md-offset-2"> 
-                 
-                  <p class="mt-15 align-center">Go back to <a href="{{url('/')}}" class="back-home">Homepage</a></p>
-                </div>
+
+
+  <!-- Start main-content -->
+  <div class="main-content">
+     
+    <!-- Section: home -->
+    <section id="home" class="fullscreen bg-lightest">
+      <div class="display-table text-center">
+        <div class="display-table-cell">
+          <div class="container pt-0 pb-0">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <h1 class="font-150 text-theme-colored mt-0 mb-0"><i class="fa fa-map-signs text-gray-silver"></i>404!</h1>
+                <h2 class="mt-0">Oops! Page Not Found</h2>
+                <p>The page you were looking for could not be found.</p>
+                <a class="btn btn-border btn-gray btn-transparent btn-circled" href="{{url('/')}}">Return Home</a>
               </div>
             </div>
           </div>
         </div>
-      </section>
-    </div>
-    <!-- ! section 404-->
-   @endsection
+      </div>
+    </section>
+  </div>  
+  <!-- end main-content -->
+
+@endsection

@@ -1,65 +1,79 @@
 @extends( 'app.app' )
 @section('section')
-      <!-- End Navigation panel-->
-      <!-- breadcrumbs start-->
-      <section style="background-image:url('img/bg-1.jpg');" class="breadcrumbs">
-        <div class="container">
-          <div class="text-center breadcrumbs-item">
-            <h1>Core Values</h1><a href="{{url('/')}}">home</a><i class="fa fa-angle-right"></i><a href="#">Our Core Values</a>
-          </div>
-        </div>
-      </section>
-      <!-- ! breadcrumbs end-->
-    </header>
-    <!-- ! header page-->
-    <div class="content-body">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-          <section class="page-section portfolio-item mb-0 pt-0 pb-50">
-              <div class="pic no-hover"><img src="img/core.jpg" alt="">
-                <div class="hover-effect"></div>
-                <div class="links"><a href="img/core.jpg" class="link-icon flaticon-interface fancy"></a><a href="#" class="link-icon flaticon-tool"></a></div>
-              </div>
-              <div class="row">
-                <div class="col-sm-10 col-sm-offset-1 fs-14">
-                  <h2 class="mt-30">Our Core Values - SCIENCE</h2>                  
-                  <p>
-                    Our principles are based on our core values and are part of everything we do. They apply to all of our business affairs and describe the behavior expected of every employee. Below are our core values
-                      <ul>
-                        <li><b>S</b>ustainability </li>
-                        <li><b>C</b>ompassion  </li>
-                        <li><b>I</b>nnovation</li>
-                        <li><b>E</b>xcellence </li>
-                        <li><b>N</b>exus </li>
-                        <li><b>C</b>ollaboration </li>
-                        <li><b>E</b>xpertise</li>
-                      </ul>
-                  </p>
-                  <!-- Start project and social links-->
-                  <div class="clearfix mt-40"><a href="#" class="cws-social flaticon-social-4"></a><a href="#" class="cws-social flaticon-social"></a><a href="#" class="cws-social flaticon-social-3"></a><a href="#" class="cws-social flaticon-social-1"></a><a href="#" class="cws-social flaticon-social-network"></a>
-                    
-                  </div>
-                </div>
-               
-              </div>
-            </section>
-            
-          </div>
-        </div>
-      </div>
-      <section class="page-section pt-0 pb-0 bg-main cws_prlx_section" id="cws_prlx_section_939300790710"><img src="img/15.jpg" alt="" class="cws_prlx_layer" id="cws_prlx_layer_746498823105" style="transform: translate(-50%, -16.5215px);">
-        <div class="container">
-          <div class="call-out-box clearfix with-icon">
-          
-            <div class="callout-wrap"><i class="fas fa-mobile-alt"></i>
-              <div class="callout-content">
-                <p>Hybridmoni is a powerfull Agency Banking App where you can borrow easily.</p>
-              </div><a href="#" class="cws-button white mt-20">Download it now</a>
+  
+  <!-- Start main-content -->
+  <div class="main-content">
+
+    <!-- Section: inner-header -->
+    <section class="inner-header divider parallax layer-overlay overlay-dark-5" data-bg-img="images/sato/12.jpg">
+      <div class="container pt-70 pb-20">
+        <!-- Section Content -->
+        <div class="section-content">
+          <div class="row">
+            <div class="col-md-12">
+              <h2 class="title text-white">Our Core Values</h2>
+              <!-- <ul class="breadcrumb text-left text-black mt-10">
+                <li><a href="page-about-style1.html#">Home</a></li>
+           
+                <li class="active text-gray-silver">who we are</li>
+              </ul> -->
             </div>
           </div>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
+
+   <section id="Project" class="bg-lighter">
+     <div class="container">
+        <div class="section-title text-center">
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <img src="images/sato/core.jpg" alt="">
+              <br><br>
+              <h2 class="text-uppercase line-bottom-double-line-centered mt-0">OUR  CORE <span class="text-theme-colored2"> VALUES (SCIENCE)</span></h2>
+              <br>
+              <p style="font-weight: 400; font-size:2em">Our principles are based on our core values and are part of everything we do. They apply to all of our business affairs and describe the behavior expected of every employee. Below are our core values</p>
+
+             <ul class="ul text-left" style="font-weight: 400; font-size:1.3em"> 
+                        <li  style="font-weight: 400; font-size:1.3em"><b style='color:#FF600C' >S</b>ustainability </li>
+                        <li  style="font-weight: 400; font-size:1.3em"><b style='color:#FF600C' >C</b>ompassion  </li>
+                        <li  style="font-weight: 400; font-size:1.3em"><b style='color:#FF600C' >I</b>nnovation</li>
+                        <li  style="font-weight: 400; font-size:1.3em"><b style='color:#FF600C' >E</b>xcellence </li>
+                        <li  style="font-weight: 400; font-size:1.3em"><b style='color:#FF600C' >N</b>exus </li>
+                        <li  style="font-weight: 400; font-size:1.3em"><b style='color:#FF600C' >C</b>ollaboration </li>
+                        <li  style="font-weight: 400; font-size:1.3em"><b style='color:#FF600C' >E</b>xpertise</li>
+                      </ul>
+            </div>
+          </div>
+        </div>
+       
+      </div >
+    </section>
    
+
+    <!-- Divider: Clients -->
+    <section class="clients bg-theme-colored2" style="border-top: 1px solid #d9d9d9; background-color:#fafafa !important">
+      <div class="container pt-10 pb-0" style="background-color:#fafafa">
+        <div class="row" style="background-color:#fafafa">
+          <div class="col-md-12" style="background-color:#fafafa">
+            <!-- Section: Clients -->
+            <div class="owl-carousel-6col text-center" style="background-color:#fafafa; padding: 3%">
+              <div class="item"> <a href="#"><img src="images/sato/20.png" alt=""></a></div>
+              <div class="item"> <a href="#"><img src="images/sato/21.png" alt=""></a></div>
+              <div class="item"> <a href="#"><img src="images/sato/22.png" alt=""></a></div>
+              <div class="item"> <a href="#"><img src="images/sato/20.png" alt=""></a></div>
+              <div class="item"> <a href="#"><img src="images/sato/21.png" alt=""></a></div>
+              <div class="item"> <a href="#"><img src="images/sato/22.png" alt=""></a></div>
+              <div class="item"> <a href="#"><img src="images/sato/20.png" alt=""></a></div>
+              <div class="item"> <a href="#"><img src="images/sato/21.png" alt=""></a></div>
+              <div class="item"> <a href="#"><img src="images/sato/22.png" alt=""></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- end main-content -->
+  </div>
+
   @endsection

@@ -1,0 +1,14 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Loan extends Model
+{
+
+    protected $primaryKey = 'id';
+    public $timestamps = false;
+    protected $table = 'loan';
+    
+}

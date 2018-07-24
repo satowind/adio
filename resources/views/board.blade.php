@@ -1,294 +1,112 @@
 @extends( 'app.app' )
 @section('section')
-      <!-- breadcrumbs start-->
-      <section style="background-image:url('img/bg-1.jpg');" class="breadcrumbs">
-        <div class="container">
-          <div class="text-center breadcrumbs-item">
-            <h1>Our Team</h1><a href="#">home</a><i class="fa fa-angle-right"></i><a href="#">pages</a><i class="fa fa-angle-right"></i><a href="#">Our Team</a>
-          </div>
-        </div>
-      </section>
-      <!-- ! breadcrumbs end-->
-    </header>
-    <!-- ! header page-->
-    <div class="content-body">
-      <!-- page section about-->
-      <section class="page-section pb-0">
-        <div class="container">  
-          <div class="row mb-10">
-            <div class="col-md-8 col-md-offset-2 mb-20">
-              <h2 class="title-section mb0 mt-0 text-center">Meet the team </h2>
-              <div class="cws_divider with-plus short-3 center mb-20 mt-10"></div>
-              <p class="text-center mb-30"></p>
-            </div>
-            <!-- service item-->
-            <div class="col-sm-4 mb-sm-40">
-              <div class="service-item icon-center"><i class="flaticon-computer-1 cws-icon type-1 color-2"></i>
-                <h3>Professional Team</h3>
-                {{--  <p class="mb-0">Donec quam felis, ultricies nec, pellentesque eu, bulsi pretium quis, sem massa quis enim.  <a href="#" class="color-1 mt-10">Read More<span class="cws_divider short color-1"></span></a></p>  --}}
-              </div>
-            </div>
-            <!-- service item-->
-            <!-- ! service item-->
-            <div class="col-sm-4 mb-sm-40">
-              <div class="service-item icon-center"><i class="flaticon-work cws-icon type-1 color-2"></i>
-                <h3>High Rating</h3>
-                {{--  <p class="mb-0">In enim justo, rhoncus ut, imperdiet a, venenatis vitae justo moest ransu quis lorem. <a href="#" class="color-1 mt-10">Read More<span class="cws_divider short color-1"></span></a></p>  --}}
-              </div>
-            </div>
-            <!-- service item-->
-            <!-- ! service item-->
-            <div class="col-sm-4">
-              <div class="service-item icon-center"><i class="flaticon-people-1 cws-icon type-1 color-2"></i>
-                <h3>Experts</h3>
-                {{--  <p class="mb-0">Nullam dictum felis eu pede mollis pretium. Integer daser tincidunt. Cras dapibus.  <a href="#" class="color-1 mt-10">Read More<span class="cws_divider short color-1"></span></a></p>  --}}
-              </div>
-            </div>
-            <!-- ! service item-->
-          </div><img src="pic/promo-7.jpg" alt>
-        </div>
-      </section>
-      <!-- ! page section about-->
-      <!-- page section about-->
-      <section class="page-section cws_prlx_section bb-gray bt-gray"><img src="img/parallax-2.jpg" alt class="cws_prlx_layer">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6 col-sm-6 mb-sm-30">
-              <div style="height:270px" class="embed-responsive">
-                <iframe src="https://www.youtube.com/embed/fP2RTyJ8FYo" class="embed-responsive-item"></iframe>
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-6 align-center">
-              <!-- section title-->
-              <h2 class="title-section mt-20 mb-0 mt-md-0">Watch our video</h2>
-              <!-- ! section title-->
-              <div class="cws_divider with-plus short-3 center mb-20 mt-10"></div>
-              <p class="mb-50 mb-md-30">Proin viverra, ligula sit amet ultrices semper, ligula arcu tristique sapien, <br /> a accu msan nisi mauris ac eros. Suspendisse faucibus, nunc et pellen esla.</p><a href="#" class="cws-button with-icon alt ml-20 mb-md-20 mb-sm-0">Subscribe<i class="flaticon-note-1"></i></a><a href="#" class="cws-button with-icon alt color-3">Watch more<i class="flaticon-social-5"></i></a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- ! page section about-->
-      <!-- section team-->
-      <section class="page-section bb-gray">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <!-- title section-->
-              <h2 class="title-section text-center mt-0 mb-0">Our Board</h2>
-              <!-- ! title section-->
-              <div class="cws_divider with-plus short-3 center mb-20 mt-10"></div>
-              <p class="text-center mb-30">Meet The Board Members. </p>
-            </div>
-          </div>
-          <div class="row cws-multi-col mb-50">
-            <div class="col-md-3 col-sm-6 mb-30">
-              <!-- profile item-->
-              <div class="profile-item">
-                <div class="pic">
-                  <div class="img_cont"><img src="pic/team/1.jpg" data-at2x="pic/team/1@2x.jpg" alt></div>
-                  <div class="hover-effect"></div>
-                  <div class="ourteam_content">
-                    <div class="title_wrap">
-                      <h3 class="title">	Dele FASEEMO</h3>
-                      <div class="positions"><a href="#">[ Senior Developer ]</a></div>
-                    </div>
-                    <div class="desc">
-                      <p>Integer ante arcu, accumsan a, conseca elas a atetuer.</p>
-                    </div>
-                    <div class="social_links"><a href="#" class="flaticon-social-4"></a><a href="#" class="flaticon-social"></a><a href="#" class="flaticon-social-network"></a><a href="#" class="flaticon-social-1"></a><a href="#" class="flaticon-social-3"></a></div>
-                  </div>
-                </div>
-              </div>
-              <!-- ! profile item-->
-            </div>
-            <div class="col-md-3 col-sm-6 mb-30">
-              <!-- profile item-->
-              <div class="profile-item">
-                <div class="pic">
-                  <div class="img_cont"><img src="pic/team/2.jpg" data-at2x="pic/team/2@2x.jpg" alt></div>
-                  <div class="hover-effect"></div>
-                  <div class="ourteam_content">
-                    <div class="title_wrap">
-                      <h3 class="title">	Juliet FASEEMO</h3>
-                      <div class="positions"><a href="#">[ Business Manager ]</a></div>
-                    </div>
-                    <div class="desc">
-                      <p>Integer ante arcu, accumsan a, conseca elas a atetuer.</p>
-                    </div>
-                    <div class="social_links"><a href="#" class="flaticon-social-4"></a><a href="#" class="flaticon-social"></a><a href="#" class="flaticon-social-network"></a><a href="#" class="flaticon-social-1"></a><a href="#" class="flaticon-social-3"></a></div>
-                  </div>
-                </div>
-              </div>
-              <!-- ! profile item-->
-            </div>
-            <div class="col-md-3 col-sm-6 mb-30">
-              <!-- profile item-->
-              <div class="profile-item">
-                <div class="pic">
-                  <div class="img_cont"><img src="pic/team/3.jpg" data-at2x="pic/team/3@2x.jpg" alt></div>
-                  <div class="hover-effect"></div>
-                  <div class="ourteam_content">
-                    <div class="title_wrap">
-                      <h3 class="title">John Doe</h3>
-                      <div class="positions"><a href="#">[ Owner, CEO ]</a></div>
-                    </div>
-                    <div class="desc">
-                      <p>Integer ante arcu, accumsan a, conseca elas a atetuer.</p>
-                    </div>
-                    <div class="social_links"><a href="#" class="flaticon-social-4"></a><a href="#" class="flaticon-social"></a><a href="#" class="flaticon-social-network"></a><a href="#" class="flaticon-social-1"></a><a href="#" class="flaticon-social-3"></a></div>
-                  </div>
-                </div>
-              </div>
-              <!-- ! profile item-->
-            </div>
-            <div class="col-md-3 col-sm-6 mb-30">
-              <!-- profile item-->
-              <div class="profile-item">
-                <div class="pic">
-                  <div class="img_cont"><img src="pic/team/4.jpg" data-at2x="pic/team/4@2x.jpg" alt></div>
-                  <div class="hover-effect"></div>
-                  <div class="ourteam_content">
-                    <div class="title_wrap">
-                      <h3 class="title">Janet Doe</h3>
-                      <div class="positions"><a href="#">[ Creative Designer ]</a></div>
-                    </div>
-                    <div class="desc">
-                      <p>Integer ante arcu, accumsan a, conseca elas a atetuer.</p>
-                    </div>
-                    <div class="social_links"><a href="#" class="flaticon-social-4"></a><a href="#" class="flaticon-social"></a><a href="#" class="flaticon-social-network"></a><a href="#" class="flaticon-social-1"></a><a href="#" class="flaticon-social-3"></a></div>
-                  </div>
-                </div>
-              </div>
-              <!-- ! profile item-->
-            </div>
-          
-            
-            
-           
-          </div>
-        </div>
-      </section>
-      <!-- ! section team-->
+  
+  <!-- Start main-content -->
+  <div class="main-content">
 
-       <!-- section team-->
-      <section class="page-section bb-gray">
-        <div class="container">
+    <!-- Section: inner-header -->
+    <section class="inner-header divider parallax layer-overlay overlay-dark-5" data-bg-img="images/sato/12.jpg">
+      <div class="container pt-70 pb-20">
+        <!-- Section Content -->
+        <div class="section-content">
           <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <!-- title section-->
-              <h2 class="title-section text-center mt-0 mb-0">Our Management</h2>
-              <!-- ! title section-->
-              <div class="cws_divider with-plus short-3 center mb-20 mt-10"></div>
-              <p class="text-center mb-30">Meet our able management team. </p>
-            </div>
-          </div>
-          <div class="row cws-multi-col mb-50">
-            <div class="col-md-3 col-sm-6 mb-30">
-              <!-- profile item-->
-              <div class="profile-item">
-                <div class="pic">
-                  <div class="img_cont"><img src="pic/team/1.jpg" data-at2x="pic/team/1@2x.jpg" alt></div>
-                  <div class="hover-effect"></div>
-                  <div class="ourteam_content">
-                    <div class="title_wrap">
-                      <h3 class="title">	Dele FASEEMO</h3>
-                      <div class="positions"><a href="#">[ Senior Developer ]</a></div>
-                    </div>
-                    <div class="desc">
-                      <p>Integer ante arcu, accumsan a, conseca elas a atetuer.</p>
-                    </div>
-                    <div class="social_links"><a href="#" class="flaticon-social-4"></a><a href="#" class="flaticon-social"></a><a href="#" class="flaticon-social-network"></a><a href="#" class="flaticon-social-1"></a><a href="#" class="flaticon-social-3"></a></div>
-                  </div>
-                </div>
-              </div>
-              <!-- ! profile item-->
-            </div>
-            <div class="col-md-3 col-sm-6 mb-30">
-              <!-- profile item-->
-              <div class="profile-item">
-                <div class="pic">
-                  <div class="img_cont"><img src="pic/team/2.jpg" data-at2x="pic/team/2@2x.jpg" alt></div>
-                  <div class="hover-effect"></div>
-                  <div class="ourteam_content">
-                    <div class="title_wrap">
-                      <h3 class="title">Juliana Doe</h3>
-                      <div class="positions"><a href="#">[ Business Manager ]</a></div>
-                    </div>
-                    <div class="desc">
-                      <p>Integer ante arcu, accumsan a, conseca elas a atetuer.</p>
-                    </div>
-                    <div class="social_links"><a href="#" class="flaticon-social-4"></a><a href="#" class="flaticon-social"></a><a href="#" class="flaticon-social-network"></a><a href="#" class="flaticon-social-1"></a><a href="#" class="flaticon-social-3"></a></div>
-                  </div>
-                </div>
-              </div>
-              <!-- ! profile item-->
-            </div>
-            <div class="col-md-3 col-sm-6 mb-30">
-              <!-- profile item-->
-              <div class="profile-item">
-                <div class="pic">
-                  <div class="img_cont"><img src="pic/team/3.jpg" data-at2x="pic/team/3@2x.jpg" alt></div>
-                  <div class="hover-effect"></div>
-                  <div class="ourteam_content">
-                    <div class="title_wrap">
-                      <h3 class="title">John Doe</h3>
-                      <div class="positions"><a href="#">[ Owner, CEO ]</a></div>
-                    </div>
-                    <div class="desc">
-                      <p>Integer ante arcu, accumsan a, conseca elas a atetuer.</p>
-                    </div>
-                    <div class="social_links"><a href="#" class="flaticon-social-4"></a><a href="#" class="flaticon-social"></a><a href="#" class="flaticon-social-network"></a><a href="#" class="flaticon-social-1"></a><a href="#" class="flaticon-social-3"></a></div>
-                  </div>
-                </div>
-              </div>
-              <!-- ! profile item-->
-            </div>
-            <div class="col-md-3 col-sm-6 mb-30">
-              <!-- profile item-->
-              <div class="profile-item">
-                <div class="pic">
-                  <div class="img_cont"><img src="pic/team/4.jpg" data-at2x="pic/team/4@2x.jpg" alt></div>
-                  <div class="hover-effect"></div>
-                  <div class="ourteam_content">
-                    <div class="title_wrap">
-                      <h3 class="title">Janet Doe</h3>
-                      <div class="positions"><a href="#">[ Creative Designer ]</a></div>
-                    </div>
-                    <div class="desc">
-                      <p>Integer ante arcu, accumsan a, conseca elas a atetuer.</p>
-                    </div>
-                    <div class="social_links"><a href="#" class="flaticon-social-4"></a><a href="#" class="flaticon-social"></a><a href="#" class="flaticon-social-network"></a><a href="#" class="flaticon-social-1"></a><a href="#" class="flaticon-social-3"></a></div>
-                  </div>
-                </div>
-              </div>
-              <!-- ! profile item-->
-            </div>
-          
-            
-            
+            <div class="col-md-12">
+              <h2 class="title text-white">Our Advisory Board</h2>
+              <!-- <ul class="breadcrumb text-left text-black mt-10">
+                <li><a href="page-about-style1.html#">Home</a></li>
            
+                <li class="active text-gray-silver">who we are</li>
+              </ul> -->
+            </div>
           </div>
         </div>
-      </section>
-      <!-- ! section team-->
-      
-     
-      <!-- page profile-->
-      <section class="page-section pb-0">
-        <div class="container">
-          <div class="row"> 
-            <div class="col-md-6 mb-md-70">
-              <h2 class="trans-uppercase mb-20"><span>About</span> The CEO</h2>
-              <p class="mb-30 line-h-2">Dele FASEEMO is the founder of Hybrid Capital and the CEO. He retired from Skye Bank Nigeria Plc and is one of those that made Skye Bank what it is today .</p><a href="#" class="cws-button with-icon alt color-3">View Pictures<i class="flaticon-social-5"></i></a>
+      </div>
+    </section>
+
+ 
+   <section id="Project" class="bg-lighter">
+     <div class="container">
+        <div class="section-title text-center">
+          <div class="row">
+            
+            <div class="col-md-7 col-md-offset-1 mb-md-70">
+              <h2 class="text-uppercase line-bottom-double-line-centered mt-0">About  <span class="text-theme-colored2">The CEO</span></h2>
+             
+              <p class="mb-30 line-h-2">Dele FASEEMO is the founder and the CEO. He has 2 decades of corporate, investment & commercial banking experience in Sales & Business Development; Transaction Banking; Branch Banking; Project Finance, Deal Origination & Credit Structuring; Bilateral & Syndication Lending; Portfolio & Risk Management; Strategy Development; Leadership & Team Building. Until recently, he was DGM & Divisional Head, Corporate Banking at Heritage Bank; he was previously AGM & Group Head, Corporate Banking at FCMB. He is a graduate and alumnus of Executive Education of the Harvard and Lagos Business Schools; he has 1st & 2nd degrees in Economics and an MBA in Finance.  He has served in cross-functional teams in banking and policy-making as a Member, Provisional Governing Council, Veritas University, Abuja; and Infrastructure Policy Commission, Nigerian Economic Summit Group.</p>
+              
               <div class="blog-nav-share align-right pt-0 pull-right"><a href="#" class="cws-social flaticon-social-4"></a><a href="#" class="cws-social flaticon-social"></a><a href="#" class="cws-social flaticon-social-3"></a><a href="#" class="cws-social flaticon-social-1"></a><a href="#" class="cws-social flaticon-social-network"></a></div>
               
             </div>
-            <div class="col-md-6"><img src="pic/promo-8.jpg" alt class="mt-minus-35"></div>
+            <div class="col-md-3"><img style='border-radius:100%' src="images/sato/dele.jpg" alt class="mt-minus-35"></div>
           </div>
         </div>
       </section>
-      <!-- ! page profile-->
-    </div>
-    <!-- footer-->
-    @endsection
+
+      
+   <section id="Project" class="bg-lighter">
+     <div class="container">
+        <div class="section-title text-center">
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+
+               <h2 class="text-uppercase line-bottom-double-line-centered mt-0"> Juliet <span class="text-theme-colored2">FASEEMO</span></h2>
+             
+              <p class="mb-30 line-h-2">She is the Founder and CEO of M2 Entertainment Limited, owners and operators of the M2 Arena Event Centre, Ogudu. Mrs. Faseemo is an experienced communications and advertising expert. After graduating with a B.A. English/History (Combined Honours) from the Obafemi Awolowo University (Ile-Ife), she started her career as a Management Trainee with leading marketing communications agency, Insight Communications Ltd. She continued working there until 2011 in various capacities, building mega brands like Pepsi, MTN, Visa Card International, Ford, Nigerian Breweries and Access Bank, to mention a few. She received several national advertising awards for her works during the period and rose to the position of a Group Head, in the creative department of the Agency.
+              
+              In 2011, she joined the marketing communications department at Etisalat Nigeria where she handled several projects including product launches and communication campaigns for Nigerian Idols, Governor’s Cup for Tennis and Lagos Photo Festival, among others. Juliet is a registered member of Advertising Practitioners Council of Nigeria (APCON); she has received training in various areas including Lean Six Sigma for business efficiency. She left Etisalat at the end of 2011 to set up and manage M2 Arena Event Centre.</p>
+              
+              <div class="blog-nav-share align-right pt-0 pull-right"><a href="#" class="cws-social flaticon-social-4"></a><a href="#" class="cws-social flaticon-social"></a><a href="#" class="cws-social flaticon-social-3"></a><a href="#" class="cws-social flaticon-social-1"></a><a href="#" class="cws-social flaticon-social-network"></a></div>
+              
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+   <section id="Project" class="bg-lighter">
+     <div class="container">
+        <div class="section-title text-center">
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+               <h2 class="text-uppercase line-bottom-double-line-centered mt-0">Amaebi  <span class="text-theme-colored2">FIDERIKUMO</span></h2>
+            
+              <p class="mb-30 line-h-2">Mr. Fiderikumo is on the Board as a Non-Executive Director. He is currently the CFO of Alpha Mead Facilities & Management Services Limited. As a Chartered Accountant and CFA charter holder, he brings his wealth of local and foreign experience of over 20 years from auditing, banking, telecoms and real estate development to support the Board oversight and advisory roles. 
+              
+              Before joining Alpha Mead, he was the CFO/Finance Director of IHS Nigeria Ltd, where he worked as part of the transformation team that grew the company from a relatively unknown player to the dominant tower infrastructure company in Nigeria. He is also an alumnus of the Harvard Business School.</p>
+              
+              <div class="blog-nav-share align-right pt-0 pull-right"><a href="#" class="cws-social flaticon-social-4"></a><a href="#" class="cws-social flaticon-social"></a><a href="#" class="cws-social flaticon-social-3"></a><a href="#" class="cws-social flaticon-social-1"></a><a href="#" class="cws-social flaticon-social-network"></a></div>
+              
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <!-- Divider: Clients -->
+    <section class="clients bg-theme-colored2" style="border-top: 1px solid #d9d9d9; background-color:#fafafa !important">
+      <div class="container pt-10 pb-0" style="background-color:#fafafa">
+        <div class="row" style="background-color:#fafafa">
+          <div class="col-md-12" style="background-color:#fafafa">
+            <!-- Section: Clients -->
+            <div class="owl-carousel-6col text-center" style="background-color:#fafafa; padding: 3%">
+              <div class="item"> <a href="#"><img src="images/sato/20.png" alt=""></a></div>
+              <div class="item"> <a href="#"><img src="images/sato/21.png" alt=""></a></div>
+              <div class="item"> <a href="#"><img src="images/sato/22.png" alt=""></a></div>
+              <div class="item"> <a href="#"><img src="images/sato/20.png" alt=""></a></div>
+              <div class="item"> <a href="#"><img src="images/sato/21.png" alt=""></a></div>
+              <div class="item"> <a href="#"><img src="images/sato/22.png" alt=""></a></div>
+              <div class="item"> <a href="#"><img src="images/sato/20.png" alt=""></a></div>
+              <div class="item"> <a href="#"><img src="images/sato/21.png" alt=""></a></div>
+              <div class="item"> <a href="#"><img src="images/sato/22.png" alt=""></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- end main-content -->
+  </div>
+
+  <!-- Footer -->
+ @endsection

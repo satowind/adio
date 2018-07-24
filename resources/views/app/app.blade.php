@@ -15,270 +15,342 @@
          satoseries linkedin page -> https://www.linkedin.com/in/ogugua-tochukwu-900495113/
     ************************************************************************************************ -->
 
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Hybrid Capital & Advisory Company Limited</title>
-    <meta charset="utf-8">
-    <meta name="keywords" content="agency banking, lagos, hybrid money, SME" />
+<html dir="ltr" lang="en">
+<head>
+
+<!-- Meta Tags -->
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+
+<meta name="keywords" content="agency banking, lagos, hybrid money, SME" />
+
 <meta name="description" content="Hybrid Capital & Advisory Company Limited (“Hybrid Capital”) is a financial services company engaged in the provision of financial & business advisory; consumer & business loans; and transaction & payment services. The Company leverages innovative technology to make financial services more inclusive, innovative, accessible and affordable for everyone." />
-    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="img/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.css">
-    <link rel="stylesheet" href="fonts/fi/flaticon.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/indent.css">
-    <link rel="stylesheet" href="rs-plugin/css/settings.css">
-    <link rel="stylesheet" href="rs-plugin/css/layers.css">
-    <link rel="stylesheet" href="rs-plugin/css/navigation.css">
-    <style>
-    p{
-      font-family: CALIBRI ;
-      font-size: 12px;
+<meta name="author" content="ThemeMascot" />
+
+<!-- Page Title -->
+<title>Hybrid Capital & Advisory Company Limited &#8211; Lagos | Cash Loans | Consumer Loans | Payday Loans | Employee Loans | Bridge Finance | Investments | agency banking | advisory service</title>
+
+<!-- Favicon and Touch Icons -->
+<link href="{{asset('images/favicon.png')}}" rel="shortcut icon" type="image/png">
+<link href="{{asset('images/apple-touch-icon.png')}}" rel="apple-touch-icon">
+<link href="{{asset('images/apple-touch-icon-72x72.png')}}" rel="apple-touch-icon" sizes="72x72">
+<link href="{{asset('images/apple-touch-icon-114x114.png')}}" rel="apple-touch-icon" sizes="114x114">
+<link href="{{asset('images/apple-touch-icon-144x144.png')}}" rel="apple-touch-icon" sizes="144x144">
+<link href="{{asset('css/pe-icon-7-stront')}}">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Stylesheet -->
+<link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet" type="text/css">
+<link href="{{asset('css/jquery-ui.min.css')}}" rel="stylesheet" type="text/css">
+<link href="{{asset('css/animate.css')}}" rel="stylesheet" type="text/css">
+<link href="{{asset('css/css-plugin-collections.css')}}" rel="stylesheet"/>
+<!-- CSS | menuzord megamenu skins -->
+
+
+
+<!-- CSS | Main style file -->
+<link href="{{asset('css/style-main.css')}}" rel="stylesheet" type="text/css">
+<!-- CSS | Preloader Styles -->
+<link href="{{asset('css/preloader.css')}}" rel="stylesheet" type="text/css">
+<!-- CSS | Custom Margin Padding Collection -->
+<link href="{{asset('css/custom-bootstrap-margin-padding.css')}}" rel="stylesheet" type="text/css">
+<!-- CSS | Responsive media queries -->
+<link href="{{asset('css/responsive.css')}}" rel="stylesheet" type="text/css">
+<!-- CSS | Style css. This is the file where you can place your own custom css code. Just uncomment it and use it. -->
+<!-- <link href="css/style.css" rel="stylesheet" type="text/css"> -->
+
+<!-- Revolution Slider 5.x CSS settings -->
+<link  href="{{asset('js/revolution-slider/css/settings.css')}}" rel="stylesheet" type="text/css"/>
+<link  href="{{asset('js/revolution-slider/css/layers.css')}}" rel="stylesheet" type="text/css"/>
+<link  href="{{asset('js/revolution-slider/css/navigation.css')}}" rel="stylesheet" type="text/css"/>
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<link id="menuzord-menu-skins" href="{{asset('css/menuzord-skins/menuzord-boxed.css')}}" rel="stylesheet"/>
+<!-- CSS | Theme Color -->
+<link href="{{asset('css/colors/theme-skin-color-set2.css')}}" rel="stylesheet" type="text/css">
+
+<!-- external javascripts -->
+<script src="{{asset('js/jquery-2.2.4.min.js')}}"></script>
+<script src="{{asset('js/jquery-ui.min.js')}}"></script>
+<script src="{{asset('js/bootstrap.min.js')}}"></script>
+<!-- JS | jquery plugin collection for this theme -->
+<script src="{{asset('js/jquery-plugin-collection.js')}}"></script>
+
+<!-- Revolution Slider 5.x SCRIPTS -->
+<script src="{{asset('js/revolution-slider/js/jquery.themepunch.tools.min.js')}}"></script>
+<script src="{{asset('js/revolution-slider/js/jquery.themepunch.revolution.min.js')}}"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<style type="text/css" media="screen">
+   p{
+      font-family: 'calibri' ;
+      font-size: 18px;
     }
-    </style>
-  </head>
-  <body>
-    <!-- header page-->
-    <header>
+    ul>li{
+       font-family: 'calibri' ;
+      font-size: 18px;
     
-      <!-- Navigation panel-->
-      <nav class="main-nav js-stick">
-        <div class="full-wrapper relative clearfix container">
-          <!-- Logo ( * your text or image into link tag *)-->
-          <div class="nav-logo-wrap local-scroll"><a href="{{url('/')}}" class="logo"><img src="img/logo.png"  alt><img src="img/logo.png" alt class="sticky-logo"></a></div>
-          <!-- Main Menu-->
-          <div class="inner-nav desktop-nav ">
-            <ul class="clearlist">
+    }
 
-              <!-- Item With Sub-->
-               <li><a href="{{url('/')}}">Home</a></li>
-              <!-- End Item With Sub-->
+    .ul li {
+    padding-left: 15px;
+    position: relative;
+}
 
-              <!-- Item With Sub-->
-              <li><a href="#" class="mn-has-sub">About Us  <i class="fa fa-angle-down button_open"></i></a>
-                <ul class="mn-sub">
-                  <li><a href="{{url('/about')}}">Who we are </a></li>
-                  <li><a href="#" class="mn-has-sub">What We Stand For <i class="fa fa-angle-right pull-right button_open"></i></a>
-                    <ul class="mn-sub to-left">
-                      <li><a href="{{url('/vision')}}">Our Vision </a></li>
-                      <li><a href="{{url('/mission')}}">Our Mission </a></li>
-                      <li><a href="{{url('/core')}}">Core Values</a></li>
-                       <li><a href="{{url('/thrust')}}">Strategic Thrust </a></li>
+   .ul li:before {
+    position: absolute;
+    left: 0px;
+    top: 11px;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border: 1px solid #e37329;
+    line-height: 35px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+  h2 .text-uppercase{
+  color: #737477 !important;
+}
+
+.section-title p {
+    font-size: 18px;
+}
+
+</style>
+</head>
+<body class="">
+<div id="wrapper" class="clearfix">
+  <!-- preloader -->
+  <div id="preloader">
+    <div id="spinner">
+      <div class="preloader-dot-loading">
+        <div class="cssload-loading"><i></i><i></i><i></i><i></i></div>
+      </div>
+    </div>
+    <div id="disable-preloader" class="btn btn-default btn-sm">Disable Preloader</div>
+  </div> 
+  
+  <!-- Header -->
+  <header id="header" class="header modern-header modern-header-theme-colored">
+  
+    <div class="header-middle p-0 bg-light xs-text-center">
+      <div class="container pt-30 pb-30">
+        <div class="row">
+          <div class="col-xs-12 col-sm-4 col-md-3">
+            <div class="widget sm-text-center">
+              <i class="fa fa-envelope text-theme-colored2 font-32 mt-5 mr-sm-0 sm-display-block pull-left flip sm-pull-none"></i>
+              <a href="mailto:info@hybridcapital.ng" class="font-12 text-gray text-uppercase">Mail Us Today</a>
+              <h5 class="font-12 text-black m-0"> info@hybridcapital.ng</h5>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-6">
+            <div class="widget text-center">
+              <a class="" href="{{url('/')}}"><img src="images/logo.png" alt=""></a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-4 col-md-3">
+            <div class="widget sm-text-center">
+              <i class="fas fa-building text-theme-colored2 font-32 mt-5 mr-sm-0 sm-display-block pull-left flip sm-pull-none"></i>
+              <a href="{{url('/contact')}}" class="font-12 text-gray text-uppercase">Company Location</a>
+              <h5 class="font-12 text-black m-0"> 
+                M2 Arena Complex,<br>Along Ogudu-Oworonshoki Expressway,<br>Ogudu, Lagos.
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-nav">
+      <div class="header-nav-wrapper navbar-scrolltofixed">
+        <div class="container">
+          <nav id="menuzord" class="menuzord red">
+            <ul class="menuzord-menu">
+              <li class="home"><a href="{{url('/')}}"><i class="fa fa-home font-28"></i></a></li>
+              <li class="active"><a href="{{url('/')}}">HOME</a>
+               
+              </li>
+              <li><a href="#">ABOUT US</a>
+                <ul class="dropdown">
+                  <li><a href="{{url('/about')}}">WHO WE ARE</a></li>
+                  <li><a href="#">WHAT WE STAND FOR</a>
+                    <ul class="dropdown">
+                      <li><a href="{{url('/mission')}}">OUR MISSION</a></li>
+                      <li><a href="{{url('/vision')}}">OUR VISION</a></li>
+                      <li><a href="{{url('/core')}}">CORE VALUES</a></li>
+                      <li><a href="{{url('/thrust')}}">STRATEGIC THRUST</a></li>
                     </ul>
                   </li>
-                  
-                  <li ><a href="#" class="mn-has-sub">Our Team <i class="fa fa-angle-right pull-right button_open"></i></a>
-                    <ul class="mn-sub to-left">
-                      <li><a href="{{url('/board')}}">Board</a></li>
-                      <li><a href="{{url('/team')}}">Management</a></li>
-                     
-                    </ul>
+
+                  <li><a href="{{url('/board')}}">Advisory Board</a>
+                   
                   </li>
+                </ul>                    
+              </li>
+              <li><a href="#">WHAT WE DO </a>
+                <ul class="dropdown">
+                  <li><a href="{{url('/hybridmoni')}}" style=' text-transform: uppercase;'>HybridMoni: Consumer & SME Lending</a></li>
+                  <li><a href="{{url('/hybridbhank')}}" style=' text-transform: uppercase;'>HybridBhank: Transaction & Payment Services</a></li>
+                  <li><a href="{{url('/advisory')}}" style=' text-transform: uppercase;'>Advisory Services</a></li>
                 </ul>
               </li>
-            
-              <!-- End Item With Sub-->
-
-              <!-- Item With Sub-->
-               <li><a href="#" class="mn-has-sub">What we do <i class="fa fa-angle-down button_open"></i></a>
-               <ul class="mn-sub">
-                  <li><a href="{{url('/moni')}}">HybridMoni: Consumer & SME Lending</a></li>
-                  <li><a href="{{url('/hybrid')}}">HybridBhank: Transaction & Payment Services</a></li>
-                  <li><a href="{{url('/services')}}">Advisory Services</a></li>
-                </ul>
-               </li>
-              <!-- End Item With Sub-->
-              <!-- Item With Sub-->
-               <li><a href="{{url('/blog')}}">Blog</a></li>
-              <!-- End Item With Sub-->
-
-
-             
-              <!-- Item-->
-              <li><a href="contact">Contact</a></li>
-              <!-- End Item-->
-              <!-- Item-->
-              <li><a href="faq">FAQ</a></li>
-              <!-- End Item-->
+              <li><a href="#" style=' text-transform: uppercase;'>FAQ</a> </li>
+              <li><a href="{{url('/blog')}}" style=' text-transform: uppercase;'>Blog</a></li>
+              <li><a href="{{url('/contact')}}" style=' text-transform: uppercase;'>Contact Us</a></li>
+               <li class="active pull-right"><a href="tel:+23408029574636" class="font-20 line-height-1"><i class="fa fa-phone font-28"></i> (+234) 080 2957 4636</a></li>
             </ul>
-           
-          </div>
-          <!-- End Main Menu-->
-        </div>
-      </nav>
-      <!-- End Navigation panel-->
-    </header>
-    <!-- ! header page-->
-
-
-    @yield('section')
-
-
-     <!-- footer-->
-    <footer style="background-image: url('img/footer-bg.jpg')" class="footer footer-fixed">
-      <div class="container">
-        <div class="row cws-multi-col">
-          <!-- widget footer-->
-          <div class="col-md-6 col-sm-6 mb-md-50">
-            <div class="widget-footer text">
-              <h3>Hybrid Capital</h3>
-              <div class="cws_divider with-plus short-2 mb-5 mt-10"></div>
-              <p>Financial services company engaged in the provision of financial & business advisory; consumer & business loans; and transaction & payment services. . </p>
-              <div class="footer-cws-social mt-25"><a href="#" class="cws-social flaticon-social-4"></a><a href="#" class="cws-social flaticon-social"></a><a href="#" class="cws-social flaticon-social-3"></a><a href="#" class="cws-social flaticon-social-1"></a><a href="#" class="cws-social flaticon-social-network"></a></div>
-            </div>
-          </div>
-          <!-- end widget footer-->
-         
-         
-          <!-- widget footer-->
-          <div class="col-md-6 col-sm-6">
-            <div class="widget-footer">
-              <h3>Newsletter</h3>
-              <div class="cws_divider with-plus short-2 mb-5 mt-10"></div>
-              <address>
-                <p>Subscribe to our news letter and get notified about important events and new services. </p>
-              </address>
-              <div class="footer-form-wrap">
-                <form method="get" action="#" class="newsletter contact-form">
-                  <div class="newsletter-footer-wrap">
-                    <input type="text" placeholder="Enter Your Email" value="" name="email" class="newsletter-field">
-                    <button type="submit" class="newsletter-submit cws-button alt">Send</button>
-                  </div>
-                </form>
-                <div id="footer-form" role="alert" class="alert alert-danger alt alert-dismissible fade in">
-                  <button type="button" data-dismiss="alert" aria-label="Close" class="close"><span aria-hidden="true">×</span></button><i class="alert-icon border fa fa-exclamation-triangle"></i><strong>Error Message!</strong><br>
-                  <div class="message"></div>
-                </div>
-                <div class="email_server_responce"></div>
-              </div>
-            </div>
-          </div>
-          <!-- end widget footer-->
-           
-        </div>
-      </div>
-      <!-- copyright-->
-      <div class="copyright"> 
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6">
-              <p>© Copyright 2018 <span>Hybrid Capital</span> &nbsp;&nbsp;|&nbsp;&nbsp; All Rights Reserved. <span><a href="http://optisoft.ng">Developed by Optisoft</a></span></p>
-            </div>
-            <div class="col-sm-6 text-right"><a href="{{url('/index')}}" class="footer-nav">Home</a><a href="{{url('/about')}}" class="footer-nav">About</a><a href="{{url('/services')}}" class="footer-nav">Services</a><a href="{{url('/contact')}}" class="footer-nav">Contact</a></div>
-          </div>
-        </div>
-      </div>
-      <!-- end copyright-->
-      <!-- scroll top-->
-    </footer>
-    <div id="scroll-top"><i class="fa fa-angle-up"></i></div>
-    <!-- ! footer-->
-    <!-- login popup-->
-    <div class="login-popup">
-      <div class="login-popup-wrap">
-        <div class="title-wrap">
-          <h2>Login</h2><i class="close-button flaticon-cross"></i>
-        </div>
-        <div class="login-content">
-          <form class="form">
-            <input type="text" name="email" value="" size="40" placeholder="Enter Your Email ..." aria-required="true" class="form-row form-row-first">
-            <input type="text" name="password" value="" size="40" placeholder="Enter Your Password ..." aria-required="true" class="form-row form-row-last">
-          </form>
-          <div class="remember">
-            <div class="checkbox">
-              <input id="checkbox3" type="checkbox" value="None" name="check">
-              <label for="checkbox3">Remember Me</label>
-            </div><a href="#">Forgot Password ?</a>
-          </div><a href="#" class="cws-button gray alt full-width mt-20">Login now</a>
-        </div>
-        <div class="login-bot">
-          <p>No account yet? <a href="#">Register now</a></p>
+          </nav>
         </div>
       </div>
     </div>
-    <!-- ! login popup-->
-    <!-- news popup-->
-    <div class="news-popup"> 
-      <div class="news-popup-wrap"> <i class="close-button flaticon-cross"></i>
+  </header>
+
+
+ @yield('section')
+
+
+
+  <!-- Footer -->
+  <footer id="footer" class="footer" data-bg-img="images/footer-bg.png" data-bg-color="#152029">
+    <div class="container pt-70 pb-40">
+      <div class="row border-bottom">
+        <div class="col-sm-6 col-md-9">
+          <div class="widget dark">
+            <img class="mt-5 mb-20" alt="" src="images/logo1.png">
+            <p>Hybrid Capital & Advisory Company Limited (“Hybrid Capital”) is a financial services company engaged in the provision of financial & business advisory; consumer & business loans; and transaction & payment services. The Company leverages innovative technology to make financial services more inclusive, innovative, accessible and affordable for everyone.</p>
+            <br>
+          
+            <ul class="list-inline mt-5">
+              <li class="m-0 pl-10 pr-10"> <i class="fa fa-phone text-theme-colored2 mr-5"></i> <a class="text-gray" href="#">(+234) 080 2957 4636</a> </li>
+              <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope text-theme-colored2 mr-5"></i> <a class="text-gray" href="#">info@hybridcapital.ng</a> </li>
+              <li class="m-0 pl-10 pr-10"> <i class="fa fa-globe text-theme-colored2 mr-5"></i> <a class="text-gray" href="#">www.hybridcapital.ng</a> </li>
+              <li class="m-0 pl-10 pr-10"> <i class="fa fa-bank text-theme-colored2 mr-5"></i> <a class="text-gray" href="#"> M2 Arena Complex,<br>Along Ogudu-Oworonshoki Expressway,<br>Ogudu, Lagos.</a> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3">
+          <div class="widget dark">
+            <h4 class="widget-title">Useful Links</h4>
+            <ul class="list angle-double-right list-border">
+              <li><a href="{{url('/about')}}">ABOUT US</a></li>
+              <li><a href="{{url('/hybridmoney')}}">WHAT WE DO</a></li>
+              <li><a href="{{url('/faq')}}">FAQ</a></li>
+              <li><a href="{{url('/blog')}}">BLOG</a></li>
+              <li><a href="{{url('/contact')}}">CONTACT US</a></li>              
+            </ul>
+          </div>
+        </div>
+      
+       
+      </div>
+      <div class="row mt-30">
+        <div class="col-md-2">
+          <div class="widget dark">
+            <h5 class="widget-title mb-10">Call Us Now</h5>
+            <div class="text-gray">
+              (+234) 080 2957 4636<br>
+              (+234) 080 3357 3662
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="widget dark">
+            <h5 class="widget-title mb-10">Connect With Us</h5>
+            <ul class="styled-icons icon-bordered icon-sm">
+              <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+       
+              <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+             
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-5 col-md-offset-2">
+          <div class="widget dark">
+            <h5 class="widget-title mb-10">Subscribe Us</h5>
+            <!-- Mailchimp Subscription Form Starts Here -->
+            <form id="mailchimp-subscription-form-footer" class="newsletter-form">
+              <div class="input-group">
+                <input type="email" value="" name="EMAIL" placeholder="Your Email" class="form-control input-lg font-16" data-height="45px" id="mce-EMAIL-footer">
+                <span class="input-group-btn">
+                  <button data-height="45px" class="btn bg-theme-colored2 text-white btn-xs m-0 font-14" type="submit">Subscribe</button>
+                </span>
+              </div>
+            </form>
+            <!-- Mailchimp Subscription Form Validation-->
+            <script type="text/javascript">
+              $('#mailchimp-subscription-form-footer').ajaxChimp({
+                  callback: mailChimpCallBack,
+                  url: '//thememascot.us9.list-manage.com/subscribe/post?u=a01f440178e35febc8cf4e51f&amp;id=49d6d30e1e'
+              });
+
+              function mailChimpCallBack(resp) {
+                  // Hide any previous response text
+                  var $mailchimpform = $('#mailchimp-subscription-form-footer'),
+                      $response = '';
+                  $mailchimpform.children(".alert").remove();
+                  if (resp.result === 'success') {
+                      $response = '<div class="alert alert-success"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' + resp.msg + '</div>';
+                  } else if (resp.result === 'error') {
+                      $response = '<div class="alert alert-danger"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>' + resp.msg + '</div>';
+                  }
+                  $mailchimpform.prepend($response);
+              }
+            </script>
+            <!-- Mailchimp Subscription Form Ends Here -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom bg-theme-colored-transparent-5">
+      <div class="container pt-20 pb-20">
         <div class="row">
-          <div class="col-sm-6"><img src="pic/news-popup.jpg" data-at2x="pic/news-popup@2x.jpg" alt></div>
-          <div class="col-sm-6">
-            <div class="news-content">
-              <div class="news-title">
-                <h2>Newsletter</h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula.</p>
-              </div>
-              <div class="contact-form-wrap">
-                <form method="get" action="#" class="newsletter contact-form">
-                  <div class="newsletter-wrap mb-0">
-                    <input type="text" placeholder="Enter Your Email ..." value="" name="email" class="newsletter-field mb-0">
-                    <button type="submit" class="newsletter-submit cws-button alt">Submit</button>
-                  </div>
-                </form>
-                <div id="news-form" role="alert" class="alert alert-danger alt alert-dismissible fade in">
-                  <button type="button" data-dismiss="alert" aria-label="Close" class="close"><span aria-hidden="true">×</span></button><i class="alert-icon border fa fa-exclamation-triangle"></i>
-                  <div class="message"></div>
-                </div>
-                <div class="email_server_responce"></div>
-              </div>
-              <div class="checkbox-wrap">
-                <div class="checkbox">
-                  <input id="checkbox4" type="checkbox" value="None" name="check">
-                  <label for="checkbox4">Dont Show This Message Again</label>
-                </div>
-              </div>
-              <div class="social-wrap"><a href="#" class="cws-social flaticon-social-4"></a><a href="#" class="cws-social flaticon-social"></a><a href="#" class="cws-social flaticon-social-3"></a><a href="#" class="cws-social flaticon-social-1"></a><a href="#" class="cws-social flaticon-social-network"></a></div>
-            </div>
+          <div class="col-md-6">
+            <p>© Copyright 2018 <span>Hybrid Capital</span> &nbsp;&nbsp;|&nbsp;&nbsp; All Rights Reserved.</p>
           </div>
+          
         </div>
       </div>
     </div>
-    <!-- ! news popup-->
-    <script src="https://www.youtube.com/player_api"></script>
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
-    <script type="text/javascript" src="js/owl.carousel.js"></script>
-    <script type="text/javascript" src="js/jquery.sticky.js"></script>
-    <script type="text/javascript" src="js/TweenMax.min.js"></script>
-    <script type="text/javascript" src="js/cws_parallax.js"></script>
-    <script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
-    <script type="text/javascript" src="js/jquery.fancybox-media.js"></script>
-    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-    <script type="text/javascript" src="js/masonry.pkgd.min.js"></script>
-    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-    <script type="text/javascript" src="rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script type="text/javascript" src="rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script type="text/javascript" src="rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script type="text/javascript" src="rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script type="text/javascript" src="rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
-    <script type="text/javascript" src="rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
-    <script type="text/javascript" src="rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script type="text/javascript" src="rs-plugin/js/extensions/revolution.extension.migration.min.js"></script>
-    <script type="text/javascript" src="js/jquery.validate.min.js"></script>
-    <script type="text/javascript" src="js/jquery.form.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
-    <script type="text/javascript" src="js/bg-video/cws_self_vimeo_bg.js"></script>
-    <script type="text/javascript" src="js/bg-video/jquery.vimeo.api.min.js"></script>
-    <script type="text/javascript" src="js/bg-video/cws_YT_bg.js"></script>
-    <script type="text/javascript" src="js/jquery.tweet.js"></script>
-    <script type="text/javascript" src="js/retina.min.js"></script>
+  </footer>
+  <a class="scrollToTop" href="index-mp-layout1.html#"><i class="fa fa-angle-up"></i></a>
+</div>
+<!-- end wrapper -->
 
-     <script type="text/javascript">
+<!-- Footer Scripts -->
+<!-- JS | Custom script for all pages -->
+<script src="{{asset('js/custom.js')}}"></script>
+
+<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  
+      (Load Extensions only on Local File Systems ! 
+       The following part can be removed on Server for On Demand Loading) -->
+<script type="text/javascript" src="{{asset('js/revolution-slider/js/extensions/revolution.extension.actions.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/revolution-slider/js/extensions/revolution.extension.carousel.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/revolution-slider/js/extensions/revolution.extension.kenburn.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/revolution-slider/js/extensions/revolution.extension.migration.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/revolution-slider/js/extensions/revolution.extension.navigation.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/revolution-slider/js/extensions/revolution.extension.parallax.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('js/revolution-slider/js/extensions/revolution.extension.video.min.js')}}"></script>
+ <script type="text/javascript">
     $(window).on('load',setTimeout( function(){
         $('#myModal').modal('show');
     },3000));
 </script>
-  </body>
+</body>
 </html>
+
 
 <!-- **********************************************************************************************
                             designed by satoseries an optisoft project

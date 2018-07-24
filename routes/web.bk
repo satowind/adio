@@ -1,0 +1,133 @@
+<?php
+
+/*
+|--------------------------------------------------------------------------
+| Web Routes
+|--------------------------------------------------------------------------
+|
+| Here is where you can register web routes for your application. These
+| routes are loaded by the RouteServiceProvider within a group which
+| contains the "web" middleware group. Now create something great!
+|
+*/
+
+Route::get('/', function () {
+    return view('index'); 
+});
+
+Route::get('/index', function () {
+    return view('index'); 
+});
+
+Route::get('/contact', function () {
+    return view('contact'); 
+});
+
+Route::get('/about', function () {
+    return view('about'); 
+});
+
+Route::get('/services', function () {
+    return view('services'); 
+});
+
+Route::get('/mission', function () {
+    return view('mision'); 
+});
+
+Route::get('/core', function () {
+    return view('core'); 
+});
+
+Route::get('/vision', function () {
+    return view('vision'); 
+});
+
+Route::get('/team', function () {
+    return view('team'); 
+});
+
+Route::get('/thrust', function () {
+    return view('thrust'); 
+});
+
+Route::get('/board', function () {
+    return view('board'); 
+});
+
+Route::get('/hybrid', function () {
+    return view('hybrid'); 
+});
+
+Route::get('/moni', function () {
+    return view('moni'); 
+});
+
+
+Route::get('/blog', "PostController@g_news");
+
+Route::get('/news_single/{id}', "PostController@g_news_single");
+
+Route::get('/news_single', "PostController@g_news_single");
+
+
+
+
+
+
+
+
+
+
+
+
+//Register page
+
+Route::get('admin/register', 'AdminController@g_register');
+Route::post('admin/register', 'AdminController@p_register');
+
+//Login page
+
+Route::get('admin/login', 'AdminController@g_login');
+Route::post('admin/login', 'AdminController@p_login');
+
+
+
+
+
+
+
+
+
+
+
+// blog view
+
+Route::get('/admin/editblog', 'PostController@g_editblog');
+
+Route::get('/admin/editblog/{id}', 'PostController@g_editblog');
+
+//blog admin
+
+Route::post('admin/remove_blog', 'PostController@p_delete_blog');
+
+Route::post('admin/update_blog', 'PostController@p_update_blog');
+
+Route::post('admin/addblog', 'PostController@p_add_blog');
+
+Route::get('admin/blog/{id}', 'PostController@g_blog');
+
+Route::get('admin/blog', 'PostController@g_blog');
+
+//addblog
+
+Route::get('admin/addblog', 'PostController@g_addblog');
+
+Route::get('hadmin/index', 'AdminController@g_index');
+
+Route::get('/hadmin/{id}', 'AdminController@g_index');
+
+Route::get('/hadmin/', 'AdminController@g_index');
+
+Route::get('/hadmin', 'AdminController@g_index');
+
