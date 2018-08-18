@@ -8,7 +8,7 @@ use Redirect;
 use App\Admin;
 use App\User;
 use App\Post;
-use App\Loan;
+use App\Application;
 use Illuminate\Http\Request;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Support\Facades\DB;
@@ -354,8 +354,7 @@ class AdminController extends Controller
 
        
 
-        // $customers = Loan::where('status','4')
-        //     ->count();
+        $customers = Application::count();
 
         // $loan = Loan::where('status','2')
         //     ->count();
@@ -371,7 +370,7 @@ class AdminController extends Controller
         // $custom = User::join('loan','loan.user_id','=','users.id')
         //     ->where('users.user_type','2')->get()->take(10);
 
-        return view('admin/index');
+        return view('admin/index',compact('customers'));
     }
 
     public function p_login(Request $request){
