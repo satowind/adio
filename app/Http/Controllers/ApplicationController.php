@@ -86,7 +86,7 @@ class ApplicationController extends Controller
 
        if ($request->hasFile('passport') ) {
             $this->validate($request, [
-                'passport' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+                'passport' => 'required|image|mimes:jpeg,jpg|max:100',
             ]);
     
     

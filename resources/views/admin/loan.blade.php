@@ -7,12 +7,12 @@
                     </li>
                             <li class="active">
         
-                                    <strong>Loans</strong>
+                                    <strong>Applications</strong>
                             </li>
                         
                             </ol>
                     
-        <h2>Loans</h2>
+        <h2>Applications</h2>
         
         <br />
         

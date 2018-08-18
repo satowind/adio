@@ -142,8 +142,8 @@ label.label-floatlabel {
 	    						<input type="password" name="password" id="password" class="form-control input-sm" placeholder="Password" required>
 	    					</div>
 			    				
-			    			<button type="submit" class="btn btn-danger btn-block" name="login">Login</button>
-			    		
+			    			<button type="submit" class="btn btn-success btn-block" name="login">Login</button>
+							<a href="{{url('/admin/register')}}" type="submit" class="btn btn-danger btn-block" name="login">Register</a>
 			    		</form>
 			    	</div>
 	    		</div>
