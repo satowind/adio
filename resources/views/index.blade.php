@@ -97,29 +97,7 @@ input[type=range]:focus::-ms-fill-upper {
   <!-- Start main-content -->
 
   <div class="container-fluid" style="z-index: 1112;position: absolute;top: 0px;">
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h2 class="modal-title text-danger text-center"> Disclaimer</h2>
-          </div>
-            <div class="modal-body">
-              <h5 class="text-danger text-center"> 
-              This site is under letruction and will be opened officially soon.
-              </h5>
-            </div>
-          <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-  
+ 
 </div>
 
 
@@ -176,7 +154,7 @@ input[type=range]:focus::-ms-fill-upper {
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on" 
-                  style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal;">Our Loan  <span class="text-theme-colored2">Offerings</span></div>
+                  style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal;">Our Consultancy  <span class="text-theme-colored2">Offerings</span></div>
                 <!-- LAYER NR. 3 -->
                 <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0" 
                   id="slide-1-layer-3" 
@@ -197,7 +175,7 @@ input[type=range]:focus::-ms-fill-upper {
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on" 
-                  style="z-index: 7; white-space: nowrap;">Our loan products are tailor-made, flexible and <br>   affordable! We help you achieve financial freedom!
+                  style="z-index: 7; white-space: nowrap;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora illo labore est et aliquid maiores alias error cumque molestiae sapiente. Ducimus quisquam reiciendis culpa illum nemo error soluta incidunt nihil?
                 </div>
                 <!-- LAYER NR. 4 -->
                 <div class="tp-caption rs-parallaxlevel-0" 
@@ -218,7 +196,7 @@ input[type=range]:focus::-ms-fill-upper {
                   data-splitout="none" 
                   data-responsive_offset="on" 
                   data-responsive="off"
-                  style="z-index: 8; white-space: nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;"><a href="{{url('/hybridmoney')}}" class="btn btn-default btn-theme-colored2 btn-xl">Learn More</a> <a href="{{url('/apply_for_loan')}}" class="btn btn-dark btn-theme-colored2 btn-xl">Apply Now</a>
+                  style="z-index: 8; white-space: nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;"><a href="#" class="btn btn-default btn-theme-colored2 btn-xl">Learn More</a> <a href="{{url('/career')}}" class="btn btn-dark btn-theme-colored2 btn-xl">Apply Now</a>
                 </div>
               </li>
 
@@ -287,7 +265,7 @@ input[type=range]:focus::-ms-fill-upper {
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on" 
-                  style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal;">Business & <span class="text-theme-colored2"> Financial Advice</span>
+                  style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal;">Business & <span class="text-theme-colored2"> Consultancy Advice</span>
                 </div>
                 <!-- LAYER NR. 4 -->
                 <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0" 
@@ -310,7 +288,7 @@ input[type=range]:focus::-ms-fill-upper {
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on" 
-                  style="z-index: 7; white-space: nowrap;">Leverage our extensive market and professional knowledge <br> to achieve your business and financial objectives.
+                  style="z-index: 7; white-space: nowrap;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum suscipit eaque porro officia hic fugit, ipsa labore voluptates quo laborum tenetur laboriosam. Quidem placeat quaerat fugiat officiis blanditiis, sapiente facere..
                 </div>
                 <!-- LAYER NR. 5 -->
                 <div class="tp-caption rs-parallaxlevel-0" 
@@ -332,7 +310,7 @@ input[type=range]:focus::-ms-fill-upper {
                   data-splitout="none" 
                   data-responsive_offset="on" 
                   data-responsive="off"
-                  style="z-index: 8; white-space: nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;"><a href="{{url('/hybridbhank')}}" class="btn btn-dark btn-theme-colored2 btn-xl">Learn More</a>
+                  style="z-index: 8; white-space: nowrap;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;"><a href="{{url('/career')}}" class="btn btn-dark btn-theme-colored2 btn-xl">Learn More</a>
                 </div>
               </li>
 
@@ -377,7 +355,7 @@ input[type=range]:focus::-ms-fill-upper {
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on" 
-                  style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal;">Agency <span class="text-theme-colored2">Banking</span>
+                  style="z-index: 6; min-width: 600px; max-width: 600px; white-space: normal;">Agency <span class="text-theme-colored2">Consultancy</span>
                 </div>
                 <!-- LAYER NR. 3 -->
                 <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0" 
@@ -399,7 +377,7 @@ input[type=range]:focus::-ms-fill-upper {
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on" 
-                  style="z-index: 7; white-space: nowrap;">We help banks and other institutions deliver transaction <br> and payment services to your doorsteps!
+                  style="z-index: 7; white-space: nowrap;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, fuga nemo, facilis saepe quidem voluptatum quibusdam cupiditate autem, recusandae aliquid laudantium sit! Accusamus, saepe fugiat expedita aspernatur vero magnam doloribus!
                 </div>
                 <!-- LAYER NR. 3 -->
                 <div class="tp-caption tp-resizeme text-white rs-parallaxlevel-0" 
@@ -421,7 +399,7 @@ input[type=range]:focus::-ms-fill-upper {
                   data-splitin="none" 
                   data-splitout="none" 
                   data-responsive_offset="on" 
-                  style="z-index: 7; white-space: nowrap;"><a href="{{url('/hybridbhank')}}" class="btn btn-dark btn-theme-colored2 btn-xl">Read More</a>
+                  style="z-index: 7; white-space: nowrap;"><a href="{{url('/career')}}" class="btn btn-dark btn-theme-colored2 btn-xl">Read More</a>
                 </div>
                 <!-- LAYER NR. 4 -->
                 <div class="tp-caption rs-parallaxlevel-0" 
@@ -562,9 +540,9 @@ input[type=range]:focus::-ms-fill-upper {
         <div class="section-content text-center">
           <div class="row">
             <div class="col-md-12">
-              <h2 class="text-uppercase line-bottom-double-line-centered text-theme-colored mt-0">WE ARE HYBRID<span class="text-theme-colored2"> CAPITAL</span></h2>
+              <h2 class="text-uppercase line-bottom-double-line-centered text-theme-colored mt-0">WE ARE Adio<span class="text-theme-colored2"> </span></h2>
               
-              <p>Hybrid Capital & Advisory Company Limited (“Hybrid Capital”) is a financial services company engaged in the provision of financial & business advisory; consumer & business loans; and transaction & payment services. The Company leverages innovative technology to make financial services more inclusive, innovative, accessible and affordable for everyone.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, id debitis ipsam laboriosam voluptates neque ullam sed modi? Vitae nesciunt perferendis quis sequi voluptate laudantium minus harum laboriosam porro enim!</p>
             </div>
           </div>
           <div class="row mt-40">
@@ -573,13 +551,13 @@ input[type=range]:focus::-ms-fill-upper {
                 <div class="thumb">
                 <img class="img-fullwidth" src="images/sato/3.jpg" alt="">
                   <div class="hover-link">
-                    <a href="{{url('/hybridmoni')}}"><i class="fa fa-phone"></i></a>
+                    <a href="{{url('/career')}}"><i class="fa fa-phone"></i></a>
                   </div>
                 </div>
-                <h3 class="text-theme-colored">Lending via HybridMoni</h3>
-                <p>HybridMoni is the Registered Business name and Trade Mark of Hybrid Capital engaged in providing quick, affordable and flexible loans ...</p>
-                <a href="{{url('/hybridmoni')}}" class="btn btn-sm btn-theme-colored2 text-white">Read more</a>
-                <a href="{{url('/apply_for_loan')}}" class="btn btn-sm btn-theme-colored text-white">Apply Now</a>
+                <h3 class="text-theme-colored">Lending via AdioMoni</h3>
+                <p>AdioMoni is Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique libero, eius quidem, temporibus dolores ea voluptates cum dolorem ipsam doloremque in laboriosam ipsum perferendis. Officia illo expedita odio vero molestias.</p>
+                <a href="{{url('/career')}}" class="btn btn-sm btn-theme-colored2 text-white">Read more</a>
+                <a href="{{url('/career')}}" class="btn btn-sm btn-theme-colored text-white">Apply Now</a>
               </div>
             </div>
             <div class="col-sm-6 col-md-4 maxwidth500 mb-sm-40">
@@ -587,12 +565,12 @@ input[type=range]:focus::-ms-fill-upper {
                 <div class="thumb">
                 <img class="img-fullwidth" src="images/sato/2.jpg" alt="">
                   <div class="hover-link">
-                    <a href="{{url('/hybridbhank')}}"><i class="fa fa-building"></i></a>
+                    <a href="{{url('/Adiobhank')}}"><i class="fa fa-building"></i></a>
                   </div>
                 </div>
-                <h3 class="text-theme-colored">Agency Banking via HybridBhank</h3>
-                <p>HybridBhank is a partnership with banks & other financial institutions that helps to bring banking services directly to the doorsteps of everyone. With HybridBhank; individuals, households and businesses do not need to leave their premises or immediate environs to access basic banking services. .</p>
-                <a href="{{url('/hybridbhank')}}" class="btn btn-sm btn-theme-colored2 text-white">Read more</a>
+                <h3 class="text-theme-colored">Agency Banking via AdioBhank</h3>
+                <p>AdioBhank is Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero in inventore illo dolor debitis unde molestias vitae libero deserunt voluptate. Maiores, debitis! Eveniet iure ab vero dolorum repellat corporis culpa.</p>
+                <a href="{{url('/Adiobhank')}}" class="btn btn-sm btn-theme-colored2 text-white">Read more</a>
 
               </div>
             </div>
@@ -601,12 +579,12 @@ input[type=range]:focus::-ms-fill-upper {
                 <div class="thumb">
                 <img class="img-fullwidth" src="images/sato/1.jpg" alt="">
                   <div class="hover-link">
-                    <a href="{{url('/advisory')}}"><i class="fa fa-user"></i></a>
+                    <a href="{{url('/career')}}"><i class="fa fa-user"></i></a>
                   </div>
                 </div>
                 <h3 class="text-theme-colored">Advisory Services</h3>
-                <p>Business & Financial Advisory which include Market Studies,	Business Plan,	Financial Model, Strategy Formulation & Audit.Capital-raise Advisory & Syndication Agent which include Debt, Equity, Hybrid.</p>
-                <a href="{{url('/advisory')}}" class="btn btn-sm btn-theme-colored2 text-white">Read more</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, beatae delectus error commodi iste repudiandae possimus autem veniam. Veniam quas ducimus architecto voluptas. Distinctio praesentium iste exercitationem tempore repellendus inventore!</p>
+                <a href="{{url('/career')}}" class="btn btn-sm btn-theme-colored2 text-white">Read more</a>
               </div>
             </div>
           </div>
@@ -616,216 +594,7 @@ input[type=range]:focus::-ms-fill-upper {
 
     {{--Section calaculator--}}
 
-    <section>
-
-    <div class="container">
-    <div align='center'>
-     <h2 class="text-uppercase line-bottom-double-line-centered text-theme-colored mt-0">Check loan status <span class="text-theme-colored2">( interest  & installments )</span></h2>
-
-    </div>
-   <br><br>
-      <div class="row">
-     
-        <div class="col-sm-8">
-            
-           
-               <form >
-      <div class="form-group">
-
-        <label for="price"> <h4 class='entry-title  text-uppercase m-0 mt-5'> <span class="text-theme-colored2">How much do you need? </span></h4> </label>
-        <h3 class='pull-right amount_display'>N 100000</h3>
-        <input type="range" class="form-control" name="amount" value="300000" min='100000' max='2000000' step='50000'>
-
-      </div>
-
-      <div class="form-group">
-
-        <label for="price"><h4 class='entry-title  text-uppercase m-0 mt-5'> <span class="text-theme-colored2">How long do you need it? </span></h4> </label>
-          <h3 class='pull-right duration_display'>3 Months</h3>
-        <input type="range" class="form-control" name="duration" value="3" min='1' max='12' step='1'>
-
-      </div>
-       <h4 class='pull-right entry-title  text-uppercase m-0 mt-5'><span class="text-theme-colored2">Interests & Fees:</span> <b class="discount">N 10000</b></h3>
-
-    </form>
-        </div>
-
-
-        <div align='center' class="col-sm-4"  style=' border-radius:15px;background-color:#e37329;'>
-          <h5 style='color:#fff'>Total Amount:</h5>
-          <h2 style='color:#fff' class='total_amount'>N 200,000</h2>
-          
-          <hr style='margin:5% 30%'>
-
-          <h5 style='color:#fff'>Monthly Payment:</h5>
-        <h2 style='color:#fff' class='total_per_month'>N 200,000</h2>
- 
-
-           <a href='{{url('/apply_for_loan')}}' class='btn btn-danger btn-lg'><span class='fa fa-arrow-right'></span> Apply Now</a>
-           <h5 style='color:#fff'>Terms and Conditions Apply</h5>
-        </div>
-      </div>
-    </div>
-
-
-    </section>
-
-    <script>
-    
-        let amount = document.querySelector('[name=amount]');
-
-        let duration = document.querySelector('[name=duration]');
-
-        let amount_display =  document.querySelector('.amount_display');
-        let duration_display =  document.querySelector('.duration_display');
-
-        let total_amount =  document.querySelector('.total_amount');
-
-        let total_per_month =  document.querySelector('.total_per_month');
-
-
-
-        let discount = document.querySelector('.discount');
-
-        
-
-        function calculatediscount() {
-
-          let amount_value = amount.value;
-          let duration_value = duration.value;
-
-          let discount_value = ( amount_value * (duration_value/12) * 6)/100 ;
-
-          discount.innerText = 'N ' +  Math.floor(discount_value);
-
-          total_amount.innerText = 'N '+ (Math.floor(Number(discount_value)) + Number(amount.value));
-
-          total_per_month.innerText = 'N '+ Math.floor((Number(discount_value) + Number(amount.value))/ Number(duration.value));
-
-
-        }
-
-
-        calculatediscount();
-
-        function updateLabel() {
-
-          amount_display.innerText = 'N '+  amount.value;
-       
-        }
-
-        updateLabel()
-
-         function updateLabel2() {
-
-            let duracell
-           
-           if( duration.value == "1" ){
-                duracell = duration.value +' Month';
-           }else{
-                duracell = duration.value +' Months';
-           }
-
-          
-          duration_display.innerText =  duracell;
-
-        }
-
-        updateLabel2()
-
-        amount.addEventListener('input', calculatediscount);
-
-        duration.addEventListener('input', calculatediscount);
-
-        amount.addEventListener('input', updateLabel);
-
-         duration.addEventListener('input', updateLabel2);
-            
-    </script>
-     {{--section end--}}
-
-  
-
-    <!-- Section: blog -->
-    <section id="blog" class="bg-silver-light">
-      <div class="container">
-        <div class="section-title text-center">
-          <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-              <h2 class="text-uppercase line-bottom-double-line-centered mt-0">Latest <span class="text-theme-colored2">News</span></h2>
-              
-            </div>
-          </div>
-        </div>
-        <div class="section-content">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="owl-carousel-3col owl-nav-top" data-nav="true">
-
-              @foreach ($posts as $post )
-                <div class="item">
-                  <article class="post clearfix mb-30 mb-sm-30">
-                <div class="entry-header">
-                  <div class="post-thumb thumb"> 
-                    <img style="height:200px;" src="admins/images/posts/{{$post->images}}" alt="" class="img-responsive img-fullwidth"> 
-                  </div>
-                </div>
-                <div class="entry-content p-20 pr-10 bg-lighter">
-                  <div class="entry-meta media mt-0 no-bg no-border">
-                    <div class="entry-date media-left text-center flip bg-theme-colored pt-5 pr-15 pb-5 pl-15">
-                      <ul>
-                        <li class="font-16 text-white font-weight-600 border-bottom">{{date('d', strtotime($post->time))}}</li>
-                        <li class="font-12 text-white text-uppercase">{{date('M', strtotime($post->time))}}</li>
-                      </ul>
-                    </div>
-                    <div class="media-body pl-15">
-                      <div class="event-content pull-left flip">
-                        <h4 class="entry-title text-white text-uppercase m-0 mt-5"><a href="blog-grid-3-column.html#">{{$post->title}}</a></h4>
-                       <!--  <span class="mb-10 text-gray-darkgray mr-10 font-13"><i class="fa fa-commenting-o mr-5 text-theme-colored"></i> 214 Comments</span>                       
-                        <span class="mb-10 text-gray-darkgray mr-10 font-13"><i class="fa fa-heart-o mr-5 text-theme-colored"></i> 895 Likes</span>   -->                     
-                      </div>
-                    </div>
-                  </div>
-                  <p class="mt-10">{{substr($post->content, 0, 100)}}</p>
-                  <a class="btn btn-theme-colored2 btn-sm text-white" href="news_single/{{$post->id}}"> View Details</a>
-                  <div class="clearfix"></div>
-                </div>
-              </article>
-                </div>
-
-              @endforeach
-                
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Divider: Clients -->
-    <section class="clients bg-theme-colored2" style="    border-top: 1px solid #d9d9d9; background-color:#fafafa !important">
-      <div class="container pt-10 pb-0" style="background-color:#fafafa">
-        <div class="row" style="background-color:#fafafa">
-          <div class="col-md-12" style="background-color:#fafafa">
-            <!-- Section: Clients -->
-            <div class="owl-carousel-6col text-center" style="background-color:#fafafa; padding: 3%">
-              <div class="item"> <a href="#"><img src="images/sato/20.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/sato/21.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/sato/22.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/sato/20.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/sato/21.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/sato/22.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/sato/20.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/sato/21.png" alt=""></a></div>
-              <div class="item"> <a href="#"><img src="images/sato/22.png" alt=""></a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-  <!-- end main-content -->
-  </div>
+   
 
   <!-- Footer -->
 

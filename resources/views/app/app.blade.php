@@ -24,13 +24,13 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
 
-<meta name="keywords" content="agency banking, lagos, hybrid money, SME" />
+<meta name="keywords" content="" />
 
-<meta name="description" content="Hybrid Capital & Advisory Company Limited (“Hybrid Capital”) is a financial services company engaged in the provision of financial & business advisory; consumer & business loans; and transaction & payment services. The Company leverages innovative technology to make financial services more inclusive, innovative, accessible and affordable for everyone." />
-<meta name="author" content="ThemeMascot" />
+<meta name="description" content="" />
+
 
 <!-- Page Title -->
-<title>Hybrid Capital & Advisory Company Limited &#8211; Lagos | Cash Loans | Consumer Loans | Payday Loans | Employee Loans | Bridge Finance | Investments | agency banking | advisory service</title>
+<title>Adio Consultancy Group</title>
 
 <!-- Favicon and Touch Icons -->
 <link href="{{asset('images/favicon.png')}}" rel="shortcut icon" type="image/png">
@@ -149,8 +149,8 @@
           <div class="col-xs-12 col-sm-4 col-md-3">
             <div class="widget sm-text-center">
               <i class="fa fa-envelope text-theme-colored2 font-32 mt-5 mr-sm-0 sm-display-block pull-left flip sm-pull-none"></i>
-              <a href="mailto:info@hybridcapital.ng" class="font-12 text-gray text-uppercase">Mail Us Today</a>
-              <h5 class="font-12 text-black m-0"> info@hybridcapital.ng</h5>
+              <a href="mailto:info@Audio.ng" class="font-12 text-gray text-uppercase">Mail Us Today</a>
+              <h5 class="font-12 text-black m-0"> info@Audio.ng</h5>
             </div>
           </div>
           <div class="col-xs-12 col-sm-4 col-md-6">
@@ -163,7 +163,7 @@
               <i class="fas fa-building text-theme-colored2 font-32 mt-5 mr-sm-0 sm-display-block pull-left flip sm-pull-none"></i>
               <a href="{{url('/contact')}}" class="font-12 text-gray text-uppercase">Company Location</a>
               <h5 class="font-12 text-black m-0"> 
-                M2 Arena Complex,<br>Along Ogudu-Oworonshoki Expressway,<br>Ogudu, Lagos.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </h5>
             </div>
           </div>
@@ -179,34 +179,12 @@
               <li class="active"><a href="{{url('/')}}">HOME</a>
                
               </li>
-              <li><a href="#">ABOUT US</a>
-                <ul class="dropdown">
-                  <li><a href="{{url('/about')}}">WHO WE ARE</a></li>
-                  <li><a href="#">WHAT WE STAND FOR</a>
-                    <ul class="dropdown">
-                      <li><a href="{{url('/mission')}}">OUR MISSION</a></li>
-                      <li><a href="{{url('/vision')}}">OUR VISION</a></li>
-                      <li><a href="{{url('/core')}}">CORE VALUES</a></li>
-                      <li><a href="{{url('/thrust')}}">STRATEGIC THRUST</a></li>
-                    </ul>
-                  </li>
 
-                  <li><a href="{{url('/board')}}">Advisory Board</a>
-                   
-                  </li>
-                </ul>                    
+              <li class="active"><a href="{{url('/career')}}">CAREER</a>
+               
               </li>
-              <li><a href="#">WHAT WE DO </a>
-                <ul class="dropdown">
-                  <li><a href="{{url('/hybridmoni')}}" style=' text-transform: uppercase;'>HybridMoni: Consumer & SME Lending</a></li>
-                  <li><a href="{{url('/hybridbhank')}}" style=' text-transform: uppercase;'>HybridBhank: Transaction & Payment Services</a></li>
-                  <li><a href="{{url('/advisory')}}" style=' text-transform: uppercase;'>Advisory Services</a></li>
-                </ul>
-              </li>
-              <li><a href="#" style=' text-transform: uppercase;'>FAQ</a> </li>
-              <li><a href="{{url('/blog')}}" style=' text-transform: uppercase;'>Blog</a></li>
-              <li><a href="{{url('/contact')}}" style=' text-transform: uppercase;'>Contact Us</a></li>
-               <li class="active pull-right"><a href="tel:+23408029574636" class="font-20 line-height-1"><i class="fa fa-phone font-28"></i> (+234) 080 2957 4636</a></li>
+             
+               <li class="active pull-right"><a href="tel:+234080000000" class="font-20 line-height-1"><i class="fa fa-phone font-28"></i> (+234) 080 0000000</a></li>
             </ul>
           </nav>
         </div>
@@ -226,14 +204,14 @@
         <div class="col-sm-6 col-md-9">
           <div class="widget dark">
             <img class="mt-5 mb-20" alt="" src="images/logo1.png">
-            <p>Hybrid Capital & Advisory Company Limited (“Hybrid Capital”) is a financial services company engaged in the provision of financial & business advisory; consumer & business loans; and transaction & payment services. The Company leverages innovative technology to make financial services more inclusive, innovative, accessible and affordable for everyone.</p>
+            <p>Adio  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla dolores dolorem architecto iusto, velit fugit provident reprehenderit dolor nostrum ut voluptate ducimus quas eum fuga deserunt accusantium assumenda voluptatem saepe.</p>
             <br>
           
             <ul class="list-inline mt-5">
-              <li class="m-0 pl-10 pr-10"> <i class="fa fa-phone text-theme-colored2 mr-5"></i> <a class="text-gray" href="#">(+234) 080 2957 4636</a> </li>
-              <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope text-theme-colored2 mr-5"></i> <a class="text-gray" href="#">info@hybridcapital.ng</a> </li>
-              <li class="m-0 pl-10 pr-10"> <i class="fa fa-globe text-theme-colored2 mr-5"></i> <a class="text-gray" href="#">www.hybridcapital.ng</a> </li>
-              <li class="m-0 pl-10 pr-10"> <i class="fa fa-bank text-theme-colored2 mr-5"></i> <a class="text-gray" href="#"> M2 Arena Complex,<br>Along Ogudu-Oworonshoki Expressway,<br>Ogudu, Lagos.</a> </li>
+              <li class="m-0 pl-10 pr-10"> <i class="fa fa-phone text-theme-colored2 mr-5"></i> <a class="text-gray" href="#">(+234) 080 00000000</a> </li>
+              <li class="m-0 pl-10 pr-10"> <i class="fa fa-envelope text-theme-colored2 mr-5"></i> <a class="text-gray" href="#">info@Audio.ng</a> </li>
+              <li class="m-0 pl-10 pr-10"> <i class="fa fa-globe text-theme-colored2 mr-5"></i> <a class="text-gray" href="#">www.Audio.ng</a> </li>
+              <li class="m-0 pl-10 pr-10"> <i class="fa fa-bank text-theme-colored2 mr-5"></i> <a class="text-gray" href="#">Lorem ipsum dolor sit, amet consectetur adipisicing elit. </a> </li>
             </ul>
           </div>
         </div>
@@ -241,11 +219,8 @@
           <div class="widget dark">
             <h4 class="widget-title">Useful Links</h4>
             <ul class="list angle-double-right list-border">
-              <li><a href="{{url('/about')}}">ABOUT US</a></li>
-              <li><a href="{{url('/hybridmoney')}}">WHAT WE DO</a></li>
-              <li><a href="{{url('/faq')}}">FAQ</a></li>
-              <li><a href="{{url('/blog')}}">BLOG</a></li>
-              <li><a href="{{url('/contact')}}">CONTACT US</a></li>              
+              <li><a href="{{url('/career')}}">CAREER</a></li>
+                          
             </ul>
           </div>
         </div>
@@ -257,8 +232,8 @@
           <div class="widget dark">
             <h5 class="widget-title mb-10">Call Us Now</h5>
             <div class="text-gray">
-              (+234) 080 2957 4636<br>
-              (+234) 080 3357 3662
+              (+234) 080 000000000<br>
+              (+234) 080 000000000
             </div>
           </div>
         </div>
@@ -316,7 +291,7 @@
       <div class="container pt-20 pb-20">
         <div class="row">
           <div class="col-md-6">
-            <p>© Copyright 2018 <span>Hybrid Capital</span> &nbsp;&nbsp;|&nbsp;&nbsp; All Rights Reserved.</p>
+           
           </div>
           
         </div>

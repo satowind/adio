@@ -24,8 +24,7 @@
             $table1.DataTable( {
                 "aLengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]],
                 "bStateSave": true,
-                "scrollX": true,
-                "scrollY": true,
+                "responsive": true,
 
             });
             
@@ -61,11 +60,9 @@
                         <th>Name</th>
                         <th>Email</th>
                         <th>Phone</th>
-                        <th>Home Address</th>
-                        <th>Amount</th> 
-                        <th>Tenure</th>
+                        
                         <th>Valid Id</th>
-                        <th>Status</th>                                             
+                                                              
                         <th>Edit</th>
                     </tr>
     
@@ -74,31 +71,19 @@
             @foreach ($loans as $loan)
                <tr>
                     <td>{{$loan->first_name .'  '. $loan->surname}}</td>
-                    <td>{{$loan->primary_email}}</td>
-                    <td>{{$loan->mobile_number}}</td>
-                    <td>{{$loan->home_address}}</td>
-                    <td>{{$loan->loan_amount}}</td>
-                    <td>{{$loan->tenure}}</td>
-                    <td><img width="100px" src="{{asset('images/loan')}}/{{$loan->valid_id}}" alt="{{$loan->surname}}"></td>
+                    <td>{{$loan->email}}</td>
+                    <td>{{$loan->phone}}</td>
+                    <td><img width="100px" src="{{asset('images/document')}}/{{$loan->passport}}" alt="{{$loan->surname}}"></td>
+                    
                     <td>
-                        @if ($loan->status == 2)
-                        <h5 style="color:black">Pending</h5>
-                        @elseif($loan->status == 1)
-                        <h5 style="color:blue">Approved</h5>
-                        @else
-                        <h5 style="color:Red">Rejected</h5>
-                        @endif
-
-                    </td>
-                    <td>
-                        <button data-toggle="modal" data-target='#modal_{{$loan->id}}' type="button" class="btn btn-primary btn-sm done">
+                        <button data-toggle="modal" data-backdrop="static" data-keyboard="false" data-target='#modal_{{$loan->id}}' type="button" class="btn btn-primary btn-sm done">
                             Edit
                         </button>
                     </td>
                 </tr>
 
                 <div class="modal fade" id="modal_{{$loan->id}}" role="dialog">
-                    <div class="modal-dialog">
+                    <div class="modal-dialog  modal-lg">
                     
                         <div class="modal-content">
 				
@@ -140,53 +125,20 @@
 						
 						</div>
 
-                        <div class="col-md-4">
-							
-							<div class="form-group">
-								<label for="field-2" class="control-label">Marital Status</label>
-								
-								<input type="text" class="form-control" id="field-2" placeholder="" value='{{ $loan->marital_status}}' disabled>
-							</div>	
-						
-						</div>
+                       
 
-                        <div class="col-md-4">
-							
-							<div class="form-group">
-								<label for="field-2" class="control-label">Date of Birth</label>
-								
-								<input type="text" class="form-control" id="field-2" placeholder="" value='{{ $loan->dob}}' disabled>
-							</div>	
-						
-						</div>
-
-                        <div class="col-md-4">
-							
-							<div class="form-group">
-								<label for="field-2" class="control-label">Number of Dependents</label>
-								
-								<input type="text" class="form-control" id="field-2" placeholder="" value='{{ $loan->no_of_dependency}}' disabled>
-							</div>	
-						
-						</div>
+                       
+                      
 				
 						
-					    <div class="col-md-12">
-							
-							<div class="form-group">
-								<label for="field-3" class="control-label">Address</label>
-								
-								<input type="text" class="form-control" id="field-3" placeholder="" value='{{$loan->home_address}}' disabled>
-							</div>	
-							
-						</div>
+					   
 
 						<div class="col-md-4">
 							
 							<div class="form-group">
 								<label for="field-4" class="control-label">Phone</label>
 								
-								<input type="text" class="form-control" id="field-4" placeholder="" value='{{$loan->mobile_number}}' disabled>
+								<input type="text" class="form-control" id="field-4" placeholder="" value='{{$loan->phone}}' disabled>
 							</div>	
 							
 						</div>
@@ -196,242 +148,42 @@
 							<div class="form-group">
 								<label for="field-5" class="control-label">Email</label>
 								
-								<input type="text" class="form-control" id="field-5" placeholder="" value='{{$loan->primary_email}}' disabled>
+								<input type="text" class="form-control" id="field-5" placeholder="" value='{{$loan->email}}' disabled>
 							</div>	
 						
 						</div>
 
-                        <div class="col-md-12">
-							
-							<div class="form-group">
-								<label for="field-3" class="control-label">Address</label>
-								
-								<input type="text" class="form-control" id="field-3" placeholder="" value='{{$loan->home_address}}' disabled>
-							</div>	
-							
-						</div>
 
 
-                        <div class="col-md-8">
-							
-							<div class="form-group">
-								<label for="field-3" class="control-label">Next of Kin</label>
-								
-								<input type="text" class="form-control" id="field-3" placeholder="" value='{{$loan->next_of_kin}}' disabled>
-							</div>	
-							
-						</div>
+                       
 
-
-                        <div class="col-md-4">
-							
-							<div class="form-group">
-								<label for="field-3" class="control-label">Next of Kin Phone No.</label>
-								
-								<input type="text" class="form-control" id="field-3" placeholder="" value='{{$loan->next_of_kin_phone_number}}' disabled>
-							</div>	
-							
-						</div>
+                       
 						
 						
 					</div>
 
-                     <div class="row">
-                        <h3 class='container'>LOAN INFORMATION</h3>
-                        <div class="col-md-6">
-							
-							<div class="form-group">
-								<label for="field-1" class="control-label">Loan Amount</label>
-								
-								<input type="text" class="form-control" id="field-1" placeholder="" value='{{$loan->loan_amount }}' disabled>
-							</div>	
-							
-						</div>
-						<div class="col-md-6">
-							
-							<div class="form-group">
-								<label for="field-1" class="control-label">Tenure</label>
-								
-								<input type="text" class="form-control" id="field-1" placeholder="" value='{{$loan->tenure }}' disabled>
-							</div>	
-							
-						</div>
-						
+                     
 						<div class="col-md-12">
 							
 							<div class="form-group no-margin">
-								<label for="field-7" class="control-label">Purpose of Loan?</label>
+								<label for="field-7" class="control-label">Cover letter</label>
 								
-								<textarea class="form-control autogrow" id="field-7" placeholder="" disabled>{{ $loan->purpose_of_loan}}</textarea>
-							</div>	
-						
-						</div>
-
-                        <div class="col-md-6">
-							
-							<div class="form-group">
-								<label for="field-2" class="control-label">Salary Bank</label>
-								
-								<input type="text" class="form-control" id="field-2" placeholder="" value='{{ $loan->salary_bank}}' disabled>
-							</div>	
-						
-						</div>
-
-                        <div class="col-md-6">
-							
-							<div class="form-group">
-								<label for="field-2" class="control-label">Account Number </label>
-								
-								<input type="text" class="form-control" id="field-2" placeholder="" value='{{ $loan->account_number}}' disabled>
+								<textarea class="form-control autogrow" id="field-7" placeholder="" disabled>{{ $loan->cover}}</textarea>
 							</div>	
 						
 						</div>
 
                        
-                       												
-					</div>
-
-                    <div class="row">
-                        <h3 class='container'>EMPLOYMENT INFORMATION</h3>
-                         <div class="col-md-6">
-							
-							<div class="form-group">
-								<label for="field-1" class="control-label">Employment Status</label>
-								
-								<input type="text" class="form-control" id="field-1" placeholder="" value='{{$loan->employment_status }}' disabled>
-							</div>	
-							
-						</div>
-						<div class="col-md-6">
-							
-							<div class="form-group">
-								<label for="field-1" class="control-label">Current Employer</label>
-								
-								<input type="text" class="form-control" id="field-1" placeholder="" value='{{$loan->current_employer }}' disabled>
-							</div>	
-							
-						</div>
-						
-						<div class="col-md-12">
-							
-							<div class="form-group">
-								<label for="field-2" class="control-label">Employer Address</label>
-								
-								<input type="text" class="form-control" id="field-2" placeholder="" value='{{ $loan->employers_address}}' disabled>
-							</div>	
-						
-						</div>
-
-                        <div class="col-md-8">
-							
-							<div class="form-group">
-								<label for="field-2" class="control-label">Work Mail</label>
-								
-								<input type="text" class="form-control" id="field-2" placeholder="" value='{{ $loan->work_mail}}' disabled>
-							</div>	
-						
-						</div>
-
-                        <div class="col-md-4">
-							
-							<div class="form-group">
-								<label for="field-2" class="control-label">Pension Number</label>
-								
-								<input type="text" class="form-control" id="field-2" placeholder="" value='{{ $loan->pension_number}}' disabled>
-							</div>	
-						
-						</div>
-
-                        <div class="col-md-4">
-							
-							<div class="form-group">
-								<label for="field-2" class="control-label">Tax Number</label>
-								
-								<input type="text" class="form-control" id="field-2" placeholder="" value='{{ $loan->tax_number}}' disabled>
-							</div>	
-						
-						</div>
-				
-						
-					    
-
-						<div class="col-md-4">
-							
-							<div class="form-group">
-								<label for="field-4" class="control-label">Next month salary</label>
-								
-								<input type="text" class="form-control" id="field-4" placeholder="" value='{{$loan->next_month_salary}}' disabled>
-							</div>	
-							
-						</div>
-						
-						<div class="col-md-4">
-							
-							<div class="form-group">
-								<label for="field-5" class="control-label">Pay day</label>
-								
-								<input type="text" class="form-control" id="field-5" placeholder="" value='{{$loan->pay_day}}' disabled>
-							</div>	
-						
-						</div>
-                       												
-					</div>
-
-                    <div class="row">
-                        <h3 class='container'>OTHER INFORMATION</h3>
-                        <div class="col-md-12">
-							
-							<div class="form-group">
-								<label for="field-1" class="control-label">Do you have an existing loan</label>
-								
-								<input type="text" class="form-control" id="field-1" placeholder="" value='{{$loan->existing_loan }}' disabled>
-							</div>	
-							
-						</div>
-						<div class="col-md-6">
-							
-							<div class="form-group">
-								<label for="field-1" class="control-label">If yes, total outstanding balance?</label>
-								
-								<input type="text" class="form-control" id="field-1" placeholder="" value='{{$loan->outstanding_balance }}' disabled>
-							</div>	
-							
-						</div>
-						
-						<div class="col-md-6">
-							
-							<div class="form-group no-margin">
-								<label for="field-7" class="control-label">Total Monthly Debt Obligation</label>
-								
-								<input type="text" class="form-control" id="field-1" placeholder="" value='{{$loan->dept_obligation }}' disabled>
-							</div>	
-						
-						</div>
-                       												
-					</div>
-
-                    <div class="row">
-                        <h3 class='container'>BANK VERIFICATION NUMBER</h3>
-                        <div class="col-md-12">
-							
-							<div class="form-group">
-								<label for="field-1" class="control-label">Bank Verification Number (BVN)</label>
-								
-								<input type="text" class="form-control" id="field-1" placeholder="" value='{{$loan->bvn }}' disabled>
-							</div>	
-							
-						</div>                       												
-					</div>
-				
+                  
 					 <div class="row">
                         <h3 class='container'>REQUIRED INFORMATION</h3>
                         <div class="col-md-12">
 							
 							<div class="form-group">
-								<label for="field-1" class="control-label">Applicant Valid ID </label>
+								<label for="field-1" class="control-label">Passport </label>
 								<br>
                                 <a href="#" class="pop">
-                                    <img class='img-responsive' src="{{asset('images/loan')}}/{{$loan->valid_id}}" alt="{{$loan->surname}}">
+                                    <img class='img-responsive' src="{{asset('images/loan')}}/{{$loan->passport}}" alt="{{$loan->surname}}">
                                 </a>
 							</div>	
 							
@@ -439,58 +191,15 @@
 
                         <div class="col-md-4">
                             <div class="form-group">
-								<label for="field-1" class="control-label">Employment ID Card </label>
+								<label for="field-1" class="control-label">Resume </label>
 								<br>
                                 <a href="#" class="pop">
-                                    <img class='img-responsive' src="{{asset('images/loan')}}/{{$loan->employment_id}}" alt="{{$loan->surname}}">
+                                        <embed src="{{asset('images/loan')}}/{{$loan->resume}}" width="500" height="375">
+                                   
                                 </a>
 							</div>	                       
                         </div>
-                        <div class="col-md-4">
-                            <div class="form-group">
-								<label for="field-1" class="control-label">Utility Bills </label>
-								<br>
-                                <a href="#" class="pop">
-                                    <img class='img-responsive' src="{{asset('images/loan')}}/{{$loan->utility_bill}}" alt="{{$loan->surname}}">
-                                </a>
-							</div>	
-                        </div>
-                        <div class="col-md-4">
-                            <div class="form-group">
-								<label for="field-1" class="control-label">Six Months Bank Statement  </label>
-								<br>
-                                <a href="#" class="pop">
-                                    <img class='img-responsive' src="{{asset('images/loan')}}/{{$loan->bank_statement}}" alt="{{$loan->surname}}">
-                                </a>
-							</div>	
-                        </div>
-                        <div class="col-md-4">
-                            <div class="form-group">
-								<label for="field-1" class="control-label">Guarantor's Valid ID  </label>
-								<br>
-                                <a href="#" class="pop">
-                                    <img class='img-responsive' src="{{asset('images/loan')}}/{{$loan->g_valid_id}}" alt="{{$loan->surname}}">
-                                </a>
-							</div>	
-                        </div>
-                        <div class="col-md-4">
-                            <div class="form-group">
-								<label for="field-1" class="control-label">Guarantor's Utility Bill </label>
-								<br>
-                                <a href="#" class="pop">
-                                    <img class='img-responsive' src="{{asset('images/loan')}}/{{$loan->g_utility_bill}}" alt="{{$loan->surname}}">
-                                </a>
-							</div>	
-                        </div>
-                        <div class="col-md-4">
-                            <div class="form-group">
-								<label for="field-1" class="control-label">Guarantor's Work ID </label>
-								<br>
-                                <a href="#" class="pop">
-                                    <img class='img-responsive' src="{{asset('images/loan')}}/{{$loan->g_work_id}}" alt="{{$loan->surname}}">
-                                </a>                                  
-							</div>	
-                        </div>                      												
+                                												
 					</div>
 				
 					
@@ -505,6 +214,7 @@
                     
                     </div>
                 </div>
+                
    
             @endforeach
             

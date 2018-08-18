@@ -28,4 +28,6 @@ class User extends Authenticatable
     ];
 
     public $remember_token = false;
+
+    public $timestamps = false;
 }

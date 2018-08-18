@@ -11,80 +11,19 @@
 |
 */
 
-Route::get('/', "PostController@g_index");
+Route::get('/', function () {
+         return view('index'); 
+     });
 
-Route::get('/index', "PostController@g_index");
-
-Route::get('/contact', function () {
-    return view('contact'); 
-});
-
-Route::get('/about', function () {
-    return view('about'); 
-});
-
-Route::get('/advisory', function () {
-    return view('advisory'); 
-});
-
-Route::get('/mission', function () {
-    return view('mision'); 
-});
-
-Route::get('/core', function () {
-    return view('core'); 
-});
-
-Route::get('/vision', function () {
-    return view('vision'); 
-});
-
-Route::get('/board', function () {
-    return view('board'); 
-});
-
-Route::get('/thrust', function () {
-    return view('thrust'); 
-});
-
-Route::get('/management', function () {
-    return view('management'); 
-});
-
-Route::get('/apply_for_loan', function () {
-    return view('apply_for_loan'); 
-});
-
-Route::get('/hybridbhank', function () {
-    return view('hybridbhank'); 
-});
-
-Route::get('/hybridmoney', function () {
-    return view('hybridmoni'); 
-});
-
-Route::get('/hybridmoni', function () {
-    return view('hybridmoni'); 
-});
-
-Route::get('/board/dele', function () {
-    return view('dele'); 
-});
-
-Route::get('/board/juliet', function () {
-    return view('juliet'); 
-});
-
-Route::get('/board/amaebi', function () {
-    return view('Amaebi'); 
+Route::get('/index', function () {
+    return view('index'); 
 });
 
 
-Route::get('/blog', "PostController@g_news");
 
-Route::get('/news_single/{id}', "PostController@g_news_single");
 
-Route::get('/news_single', "PostController@g_news_single");
+Route::get('/career', 'ApplicationController@g_apply');
+
 
 
 
@@ -107,18 +46,30 @@ Route::post('admin/register', 'AdminController@p_register');
 Route::get('admin/login', function(){
     return view('admin/login');
 });
+
 Route::post('admin/login', 'AdminController@p_login');
 
+Route::post('/apply_job', 'ApplicationController@p_apply');
 
-Route::post('/apply_form', 'LoanController@p_apply');
+Route::get('/login', function(){
+    return view('/login');
+});
+
+Route::get('/register', function(){
+    return view('/register');
+});
+
+Route::post('/register', 'CustomersController@p_register');
+
+Route::post('/login', 'CustomersController@p_login');
 
 
 
 
 
-Route::get('/admin/loan', 'LoanController@g_loan')->middleware("guest");
+Route::get('/admin/career', 'ApplicationController@g_loan')->middleware("guest");
 
-Route::get('/admin/loan/{id}', 'LoanController@g_loan')->middleware("guest");
+Route::get('/admin/career/{id}', 'ApplicationController@g_loan')->middleware("guest");
 
 Route::post('/admin/approve_loan', 'LoanController@g_approve_loan')->middleware("guest");
 
@@ -146,9 +97,9 @@ Route::get('admin/blog', 'PostController@g_blog')->middleware("guest");
 
 Route::get('admin/addblog', 'PostController@g_addblog')->middleware("guest");
 
-Route::get('hadmin/index', 'AdminController@g_index')->middleware("guest");
+//Route::get('hadmin/index', 'AdminController@g_index')->middleware("guest");
 
-Route::get('/hadmin/{id}', 'AdminController@g_index')->middleware("guest");
+//Route::get('/hadmin/{id}', 'AdminController@g_index')->middleware("guest");
 
 //Route::get('/hadmin', 'AdminController@g_index')->middleware("guest");
 
@@ -156,13 +107,13 @@ Route::get('/hadmin/{id}', 'AdminController@g_index')->middleware("guest");
 
 //admin index
 
-Route::get('/admin', function(){
-    return view('admin/index');
-})->middleware("guest");
+Route::get('/admin', 'AdminController@g_index')->middleware("guest");
 
-Route::get('/admin/index', function(){
-    return view('admin/index');
-})->middleware("guest");
+Route::get('/admin/index', 'AdminController@g_index')->middleware("guest");
+
+//Route::get('/admin/index', function(){
+ //   return view('admin/index');
+//})->middleware("guest");
 
 Route::get('/admin/logout', 'AdminController@p_logout');
 

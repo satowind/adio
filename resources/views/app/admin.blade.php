@@ -25,10 +25,10 @@
 	<meta name="description" content="City cyber solutions" />
 	<meta name="author" content="" />
 
-<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="http://hybridcapital.ng/img/favicon.png" />
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="http://Adiocapital.ng/img/favicon.png" />
 
 
-	<title>Hybrid Capital</title>
+	<title>Adio Capital</title>
 
 	<link rel="stylesheet" href="{{asset('admins/assets/js/jquery-ui/css/no-theme/jquery-ui-1.10.3.custom.min.css')}}">
 	<link rel="stylesheet" href="{{asset('admins/assets/css/font-icons/entypo/css/entypo.css')}}">
@@ -68,7 +68,7 @@
 </head>
 <body class="page-body" >
 
-<div class="page-container"><!-- add class "sidebar-collapsed" to close sidebar by default, "chat-visible" to make chat appear always -->
+<div class="page-container "><!-- add class "sidebar-collapsed" to close sidebar by default, "chat-visible" to make chat appear always -->
 	
 	<div class="sidebar-menu">
 
@@ -79,7 +79,7 @@
 				<!-- logo -->
 				<div class="logo">
 					<a href="{{url('../index')}}">
-						<h2 style="color:#FF600C">HYBRID</h2>
+						<h2 style="color:#FF600C">Adio</h2>
 					</a>
 				</div>
 
@@ -139,24 +139,13 @@
 				</li>
 
 			
-				<li >
-					<a href="{{url('admin/blog')}}">
-						<i class="fa fa-newspaper-o"></i>
-						<span class="title">Blog/News letter</span>
-					</a>
-				</li>
+			
 
+				
 				<li >
-					<a href="{{url('admin/blog')}}">
-						<i class="fa fa-users"></i>
-						<span class="title">Users</span>
-					</a>
-				</li>
-
-				<li >
-					<a href="{{url('admin/loan')}}">
+					<a href="{{url('admin/career')}}">
 						<i class="fa fa-money"></i>
-						<span class="title">Loan Request</span>
+						<span class="title">Applications</span>
 					</a>
 				</li>
 			
@@ -227,8 +216,7 @@
 
 
  <footer class="main">
-            
-            &copy; 2018 <strong>Hybrid Capital</strong>. All Rights Reserved . <!-- Designed by <a href="http://optisoft.ng" target="_blank">Optisoft</a> -->
+          
         
         </footer>
 
@@ -352,7 +340,7 @@
             $('.pop').on('click', function() {
                 $('.imagepreview').attr('src', $(this).find('img').attr('src'));
 				$('.title2').text($(this).parent().find('label').text());
-				$('#imagemodal').show().modal('show');   
+				$('#imagemodal').show().modal({backdrop: 'static', keyboard: false});   
             });
 
 			$('#close').on('click', function() {
@@ -362,7 +350,7 @@
 			$('.close2').on('click', function() {
 				
 				$('.modal-backdrop').hide();   
-            });	
+			});	
 					
         });
 </script>
