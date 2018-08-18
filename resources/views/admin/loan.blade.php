@@ -183,7 +183,7 @@
 								<label for="field-1" class="control-label">Passport </label>
 								<br>
                                 <a href="#" class="pop">
-                                    <img class='img-responsive' src="{{asset('images/loan')}}/{{$loan->passport}}" alt="{{$loan->surname}}">
+                                    <img class='img-responsive' src="{{asset('images/document')}}/{{$loan->passport}}" alt="{{$loan->surname}}">
                                 </a>
 							</div>	
 							
@@ -194,7 +194,8 @@
 								<label for="field-1" class="control-label">Resume </label>
 								<br>
                                 <a href="#" class="pop">
-                                        <embed src="{{asset('images/loan')}}/{{$loan->resume}}" width="500" height="375">
+                                        <embed src="{{asset('images/document')}}/{{$loan->resume}}" width="100%" height="375">
+                                           
                                    
                                 </a>
 							</div>	                       
